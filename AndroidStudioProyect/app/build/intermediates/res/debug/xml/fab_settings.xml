@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <SwitchPreference android:icon="@null" android:title="New chat" android:key="newChat"  />
-    <SwitchPreference android:icon="@null" android:title="New group" android:key="newGroup" />
-    <SwitchPreference android:icon="@null" android:title="New broadcast" android:key="newBroadcast" />
-    <SwitchPreference android:icon="@null" android:title="Search" android:key="search" />
-    <SwitchPreference android:icon="@null" android:title="WhatsAppMD Settings" android:key="wamdSettings" />
-</PreferenceScreen><!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/src/main/res/xml/fab_settings.xml -->
