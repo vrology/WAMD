@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-df8fb61770f00c0b7cbb746dabee362c00c7708b.jar" />
+    </item>
+    <item
+        jar="/Users/brianvalente/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-51f53ea511664376e320961f4f82fac36568d34b.jar" />
+    </item>
+    <item
+        jar="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/classes-c14e5e1069f2ac18e922a8308ce5c50fe9dc0e4c.jar" />
+    </item>
+    <item
+        jar="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/exploded-aar/WhatsAppMD/colorPicker/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f550e7b1b6051abcf21e53b76b87af6f93696a87">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/classes-e41f7dc8f376098936d17801d4b2fc4f568f08c0.jar" />
+    </item>
+    <item
+        jar="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/classes-9ad03830797e94da0faec3ddc665a79b69862d0c.jar" />
+    </item>
+    <item
+        jar="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2b8a750df2a5d485d0c40b379b44371c5e6d98d">
+        <dex dex="/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/build/intermediates/pre-dexed/debug/classes-0461fa5ad3d241240d0b9bcf9dcda8fdefae7e85.jar" />
+    </item>
+
+</items>
