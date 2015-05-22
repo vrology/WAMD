@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffebebeb" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:paddingLeft="@dimen/card_h_padding2" android:paddingTop="@dimen/card_v_padding2" android:paddingRight="@dimen/card_h_padding2" android:paddingBottom="@dimen/card_v_padding2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="#ff707070" android:id="@id/gdrive_restore_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff707070" android:id="@id/gdrive_restore_size_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/gdrive_backup_size_info_calculating" />
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/card_v_padding" android:paddingBottom="@dimen/card_v_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/perform_restore" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/gdrive_restore_btn_text" />
+            <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/dont_restore" android:background="@drawable/btn_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="0.0dip" android:text="@string/gdrive_dont_restore_btn_text" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ff707070" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdrive_restore_message_wifi_notice" />
+    </LinearLayout>
+</ScrollView>
