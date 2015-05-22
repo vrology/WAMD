@@ -1,1 +1,3 @@
-# whatsappmd
+# WAMD
+
+WhatsApp with Material Design
