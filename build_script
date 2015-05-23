@@ -1,3 +1,3 @@
 apktool b -o WAMD_unsigned.apk
 java -jar SignApk.jar ../testkey.x509.pem ../testkey.pk8 WAMD_unsigned.apk WAMD_signed.apk
-adb install -r WAMD_signed.apk
+adb install -r -d WAMD_signed.apk
