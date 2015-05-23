@@ -23,4 +23,4 @@
             android:text="Test"
             android:textSize="16sp"/>
     </FrameLayout>
-</RelativeLayout><!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/src/main/res/layout/activity_material_drawer.xml -->
+</RelativeLayout><!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/app/src/main/res/layout/activity_material_drawer.xml -->

@@ -9,11 +9,16 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Handler;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.Window;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
+
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -143,38 +148,62 @@ public class utils extends Activity {
         }
     }
 
-    public void hideToolbarIcons() {
-        boolean hidden = false;
+    public void conversation() {
+        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("app", 0);
+        final SharedPreferences.Editor editor = prefs.edit();
 
-        TextView search = (TextView) findViewById(R.id.action_bar_spinner);
-        TextView newChat = (TextView) findViewById(R.id.action_bar);
-
-
-        while (search == null) {
-            TextView search = (TextView) findViewById(R.id.action_bar_spinner);
-        }
-
-        search.setVisibility(View.GONE);
-        newChat.setVisibility(View.GONE);
-
-        while (!hidden) {
-            try {
-                final Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        // Do something after 5s = 5000ms
-                        hideToolbarIconsHelper();
-                    }
-                }, 5000);
-                hidden = true;
-            } catch (Exception e) {
-                hidden = false;
-            }
+        if (prefs.getBoolean("conversationNoContactPhoto", false)) {
+            final FrameLayout contactPhoto = (FrameLayout) findViewById(R.id.action_bar);
+            contactPhoto.setVisibility(View.GONE);
         }
     }
 
-    public void hideToolbarIconsHelper() {
+    public void home() {
+        final SharedPreferences settings = getApplicationContext().getSharedPreferences("app", 0);
+        final SharedPreferences.Editor editor = settings.edit();
 
+        if (!settings.contains("tabsColor")) {
+            String tabsColor = "1e9688";
+            editor.putString("tabsColor", tabsColor);
+            editor.apply();
+        }
+        String tabsColor = "#" + settings.getString("tabsColor", "1e9688");
+
+        RelativeLayout tabs = (RelativeLayout) findViewById(R.id.action_bar);
+        tabs.setBackgroundColor(Color.parseColor(tabsColor));
+        View v = tabs.getChildAt(0);
+        v.setId(R.id.listMode);
+        LinearLayout homeTabs = (LinearLayout) findViewById(R.id.listMode);
+        FrameLayout tab1 = (FrameLayout) homeTabs.getChildAt(0);
+        FrameLayout tab2 = (FrameLayout) homeTabs.getChildAt(1);
+        FrameLayout tab3 = (FrameLayout) homeTabs.getChildAt(2);
+
+        /*if (settings.getBoolean("homeCenteredTabs", false)) {
+            homeTabs.setGravity(Gravity.CENTER_HORIZONTAL);
+            DisplayMetrics displayMetrics = WhatsAppMD.this.getResources().getDisplayMetrics();
+            float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
+            int density;
+            if (displayMetrics.density == 2.0) {
+                density = 3;
+            } else if (displayMetrics.density == 3.0) {
+                density = 2;
+            } else if (displayMetrics.density == 0.75) {
+                density = 8;
+            } else {
+                density = 4;
+            }
+            int tabHeight = (Math.round(dpWidth) - 210) / density;
+            tab1.setPadding(tabHeight,0,tabHeight,0);
+            tab2.setPadding(tabHeight,0,tabHeight,0);
+            tab3.setPadding(tabHeight,0,tabHeight,0);
+        } else {
+            tab1.setPadding(20,0,20,0);
+            tab2.setPadding(20,0,20,0);
+            tab3.setPadding(20,0,20,0);
+        }*/
+
+        ViewPager pager = (ViewPager) findViewById(R.id.list_item);
+        String bgColor = "#" + settings.getString("colorsHomeBackground", "FFFFFF");
+        pager.setBackgroundColor(Color.parseColor(bgColor));
     }
 }

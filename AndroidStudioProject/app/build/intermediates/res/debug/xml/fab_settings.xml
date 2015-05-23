@@ -5,4 +5,4 @@
     <SwitchPreference android:icon="@null" android:title="New broadcast" android:key="newBroadcast" />
     <SwitchPreference android:icon="@null" android:title="Search" android:key="search" />
     <SwitchPreference android:icon="@null" android:title="WhatsAppMD Settings" android:key="wamdSettings" />
-</PreferenceScreen><!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/src/main/res/xml/fab_settings.xml -->
+</PreferenceScreen><!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/app/src/main/res/xml/fab_settings.xml -->

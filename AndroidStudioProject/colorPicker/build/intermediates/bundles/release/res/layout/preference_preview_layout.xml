@@ -2,4 +2,4 @@
     android:id="@id/preference_preview_color_panel"
 	android:layout_width="25dp"    
 	android:layout_height="25dp"
-/><!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/colorPicker/src/main/res/layout/preference_preview_layout.xml -->
+/><!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/colorPicker/src/main/res/layout/preference_preview_layout.xml -->

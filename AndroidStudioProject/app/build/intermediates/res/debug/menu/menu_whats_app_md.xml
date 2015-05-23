@@ -3,4 +3,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/src/main/res/menu/menu_whats_app_md.xml -->
+<!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/app/src/main/res/menu/menu_whats_app_md.xml -->

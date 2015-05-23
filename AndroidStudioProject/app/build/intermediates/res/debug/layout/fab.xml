@@ -17,4 +17,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/fabNewChat"
         android:orientation="horizontal"/>
-</RelativeLayout><!-- From: file:/Users/brianvalente/AndroidStudioProjects/WhatsAppMD/app/src/main/res/layout/fab.xml -->
+</RelativeLayout><!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/app/src/main/res/layout/fab.xml -->

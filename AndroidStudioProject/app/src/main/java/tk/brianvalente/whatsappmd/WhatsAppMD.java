@@ -686,11 +686,6 @@ public class WhatsAppMD extends PreferenceActivity {
 
     }
 
-    public void test() {
-        FrameLayout actionBar2 = (FrameLayout) findViewById(R.id.action_bar);
-        actionBar2.setVisibility(View.GONE);
-    }
-
     public void changeUIColor() {
         final SharedPreferences settings = getApplicationContext().getSharedPreferences("app", 0);
         final SharedPreferences.Editor editor = settings.edit();
@@ -716,13 +711,6 @@ public class WhatsAppMD extends PreferenceActivity {
         }
         String navBarColor = "#" + settings.getString("navBarColor", "555555");
 
-        if (!settings.contains("tabsColor")) {
-            String tabsColor = "1e9688";
-            editor.putString("tabsColor", tabsColor);
-            editor.apply();
-        }
-        String tabsColor = "#" + settings.getString("tabsColor", "1e9688");
-
 
         getActionBar().setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));
 
@@ -730,7 +718,7 @@ public class WhatsAppMD extends PreferenceActivity {
 
 
         int currentapiVersion = Build.VERSION.SDK_INT;
-        if (currentapiVersion >= Build.VERSION_CODES.LOLLIPOP){
+        if (currentapiVersion >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(Color.parseColor(statusBarColor));
             getWindow().setNavigationBarColor(Color.parseColor(navBarColor));
         }
@@ -738,205 +726,6 @@ public class WhatsAppMD extends PreferenceActivity {
         if (!settings.contains("conversationNoContactPhoto")) {
             editor.putBoolean("conversationNoContactPhoto", false);
         }
-
-
-
-//      FOR HOMEACTIVITY
-/*        RelativeLayout tabs = (RelativeLayout) findViewById(R.id.action_bar);
-        tabs.setBackgroundColor(Color.parseColor(tabsColor));
-        View v = tabs.getChildAt(0);
-        v.setId(R.id.listMode);
-        LinearLayout homeTabs = (LinearLayout) findViewById(R.id.listMode);
-        FrameLayout tab1 = (FrameLayout) homeTabs.getChildAt(0);
-        FrameLayout tab2 = (FrameLayout) homeTabs.getChildAt(1);
-        FrameLayout tab3 = (FrameLayout) homeTabs.getChildAt(2);
-
-        if (settings.getBoolean("homeCenteredTabs", false)) {
-            homeTabs.setGravity(Gravity.CENTER_HORIZONTAL);
-            DisplayMetrics displayMetrics = WhatsAppMD.this.getResources().getDisplayMetrics();
-            float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
-            int density;
-            if (displayMetrics.density == 2.0) {
-                density = 3;
-            } else if (displayMetrics.density == 3.0) {
-                density = 2;
-            } else if (displayMetrics.density == 0.75) {
-                density = 8;
-            } else {
-                density = 4;
-            }
-            int tabHeight = (Math.round(dpWidth) - 210) / density;
-            tab1.setPadding(tabHeight,0,tabHeight,0);
-            tab2.setPadding(tabHeight,0,tabHeight,0);
-            tab3.setPadding(tabHeight,0,tabHeight,0);
-        } else {
-            tab1.setPadding(20,0,20,0);
-            tab2.setPadding(20,0,20,0);
-            tab3.setPadding(20,0,20,0);
-        }
-
-        ViewPager pager = (ViewPager) findViewById(R.id.list_item);
-        String bgColor = "#" + settings.getString("colorsHomeBackground", "FFFFFF");
-        pager.setBackgroundColor(Color.parseColor(bgColor));
-
-
-        /*final FloatingActionsMenu FAB = (FloatingActionsMenu) findViewById(R.id.always);
-
-        if (settings.getBoolean("fabEnabled", false)) {
-            FAB.setBackgroundColor(Color.parseColor( "#" + settings.getString("fabMenuBg", "FFFFFF")));
-            FAB.setVisibility(View.VISIBLE);
-            FloatingActionButton fabNewChat = (FloatingActionButton) findViewById(R.id.action_menu_divider);
-            FloatingActionButton fabNewGroup = (FloatingActionButton) findViewById(R.id.action_menu_presenter);
-            FloatingActionButton fabNewBroadcast = (FloatingActionButton) findViewById(R.id.action_mode_bar);
-            FloatingActionButton fabSearch = (FloatingActionButton) findViewById(R.id.action_mode_bar);
-            FloatingActionButton fabWAMDSettings = (FloatingActionButton) findViewById(R.id.action_mode_bar_stub);
-
-            if(!settings.getBoolean("fabNewChat", true)) {
-                fabNewChat.setVisibility(View.GONE);
-            } else {
-                TextView newChat = (TextView) findViewById(R.id.list_item);
-                newChat.setWidth(0);
-                newChat.setHeight(0);
-            }
-            if(!settings.getBoolean("fabNewGroup", true)) fabNewGroup.setVisibility(View.GONE);
-            if(!settings.getBoolean("fabNewBroadcast", true)) fabNewBroadcast.setVisibility(View.GONE);
-            if(!settings.getBoolean("fabSearch", true)) {
-                fabSearch.setVisibility(View.GONE);
-            } else {
-                TextView search = (TextView) findViewById(R.id.action_mode_bar_stub);
-                search.setWidth(0);
-                search.setHeight(0);
-            }
-            if(!settings.getBoolean("fabWAMDSettings", true)) fabWAMDSettings.setVisibility(View.GONE);
-
-            fabNewChat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TextView newChat = (TextView) findViewById(R.id.list_item);
-                    newChat.performClick();
-                    FAB.collapse();
-                }
-            });
-
-            fabNewGroup.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent newGroup = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(newGroup);
-                    FAB.collapse();
-                }
-            });
-
-            fabNewBroadcast.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent newBroadcast = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(newBroadcast);
-                    FAB.collapse();
-                }
-            });
-
-            fabSearch.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TextView search = (TextView) findViewById(R.id.action_mode_bar_stub);
-                    search.performClick();
-                    FAB.collapse();
-                }
-            });
-
-            fabWAMDSettings.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent WAMDSettings = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(WAMDSettings);
-                    FAB.collapse();
-                }
-            });
-        } else {
-            FAB.setVisibility(View.GONE);
-        }
-
-        */
-
-
-
-
-
-
-
-
-
-
     }
 
-    /*private void fab() {
-        final FloatingActionsMenu FAB = (FloatingActionsMenu) findViewById(R.id.always);
-
-        if (true) {
-            FAB.setVisibility(View.VISIBLE);
-            FloatingActionButton fabNewChat = (FloatingActionButton) findViewById(R.id.action_menu_divider);
-            FloatingActionButton fabNewGroup = (FloatingActionButton) findViewById(R.id.action_menu_presenter);
-            FloatingActionButton fabNewBroadcast = (FloatingActionButton) findViewById(R.id.action_mode_bar);
-            FloatingActionButton fabSearch = (FloatingActionButton) findViewById(R.id.action_mode_bar);
-            FloatingActionButton fabWAMDSettings = (FloatingActionButton) findViewById(R.id.action_mode_bar_stub);
-
-            fabNewChat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TextView newChat = (TextView) findViewById(R.id.list_item);
-                    newChat.performClick();
-                    FAB.collapse();
-                }
-            });
-
-            fabNewGroup.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent newGroup = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(newGroup);
-                    FAB.collapse();
-                }
-            });
-
-            fabNewBroadcast.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent newBroadcast = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(newBroadcast);
-                    FAB.collapse();
-                }
-            });
-
-            fabSearch.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TextView search = (TextView) findViewById(R.id.action_mode_bar_stub);
-                    search.performClick();
-                    FAB.collapse();
-                }
-            });
-
-            fabWAMDSettings.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent WAMDSettings = new Intent(WhatsAppMD.this, test.class);
-                    startActivity(WAMDSettings);
-                    FAB.collapse();
-                }
-            });
-        } else {
-            FAB.setVisibility(View.GONE);
-        }
-    }*/
-
-    public void conversation() {
-        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("app", 0);
-        final SharedPreferences.Editor editor = prefs.edit();
-
-        if (prefs.getBoolean("conversationNoContactPhoto", false)) {
-            final FrameLayout contactPhoto = (FrameLayout) findViewById(R.id.action_bar);
-            contactPhoto.setVisibility(View.GONE);
-        }
-    }
 }
