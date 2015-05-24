@@ -9,25 +9,25 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="Home" android:key="home_section">
         <!--<SwitchPreference android:visibility="gone" android:icon="@null" android:enabled="false" android:title="Centered tabs" android:key="home_tabsStyleCentered" android:summary="The tabs use all width of the screen" />-->
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Action Bar + Home Tabs" android:key="actionBarPlusHomeTab" android:summary="Use the same color for both" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Action Bar + Home Tabs" android:key="actionBarPlusHomeTab" android:summary="Use the same color for both" android:defaultValue="true"/>
         <!--<SwitchPreference android:visibility="gone" android:icon="@null" android:enabled="false" android:title="Show dividers in lists" android:key="home_divider" android:summary="Shows a gray divider for chats list" />-->
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Small tabs" android:key="home_smallTabs" android:summary="Tabs are smaller and doesn't use the entire width" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Small tabs" android:key="home_smallTabs" android:summary="Tabs are smaller and doesn't use the entire width" android:defaultValue="false"/>
         <Preference android:icon="@null" android:title="Chat list background" android:key="colors_homeBackground" android:summary="#FFFFFF" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Floating Action Button">
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Floating Action Button" android:key="fabEnabled" android:summary="Enables the FAB" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Floating Action Button" android:key="fabEnabled" android:summary="Enables the FAB" android:defaultValue="true"/>
         <Preference android:icon="@null" android:title="Select FAB buttons" android:key="fab_settings" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Conversation" android:key="conversation_section">
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Hide contact photo" android:key="conversationNoContactPhoto" android:summary="Hides the contact photo from the Action Bar" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Hide contact photo" android:key="conversationNoContactPhoto" android:summary="Hides the contact photo from the Action Bar" android:defaultValue="false"/>
     </PreferenceCategory>
     <PreferenceCategory android:title="Privacy" android:key="privacy_section">
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Hide Online" android:key="privacy_hideOnline" android:summary="Your status won't be shown" />
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="No 2nd tick" android:key="privacy_no2ndTick" android:summary="The receiver won't know if you've received the message" />
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="No blue tick" android:key="privacy_noBlueTick" android:summary="The receiver won't know if you've read the message" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Hide Online" android:key="privacy_hideOnline" android:summary="Your status won't be shown" android:defaultValue="false"/>
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="No 2nd tick" android:key="privacy_no2ndTick" android:summary="The receiver won't know if you've received the message" android:defaultValue="false"/>
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="No blue tick" android:key="privacy_noBlueTick" android:summary="The receiver won't know if you've read the message" android:defaultValue="false"/>
     </PreferenceCategory>
     <PreferenceCategory android:title="Others">
-        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Disable color picker" android:key="others_noColorPicker" android:summary="Use HEX codes" />
+        <tk.brianvalente.whatsappmd.SwitchPref android:icon="@null" android:title="Disable color picker" android:key="others_noColorPicker" android:summary="Use HEX codes" android:defaultValue="false"/>
     </PreferenceCategory>
     <PreferenceCategory android:title="About" android:key="conversation_section">
         <Preference android:icon="@null" android:title="Open Google+ Community" android:key="conversation_noContactPhoto">

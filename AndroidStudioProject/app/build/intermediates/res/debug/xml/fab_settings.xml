@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="Select the buttons you want" android:key="fabButtons">
-        <SwitchPreference android:icon="@null" android:title="New chat" android:key="fabNewChat" />
-        <SwitchPreference android:icon="@null" android:title="New group" android:key="fabNewGroup" />
-        <SwitchPreference android:icon="@null" android:title="New broadcast" android:key="fabNewBroadcast" />
-        <SwitchPreference android:icon="@null" android:title="Search" android:key="fabSearch" />
-        <SwitchPreference android:icon="@null" android:title="WhatsAppMD Settings" android:key="fabWAMDSettings" />
+        <SwitchPreference android:icon="@null" android:title="New chat" android:key="fabNewChat" android:defaultValue="true"/>
+        <SwitchPreference android:icon="@null" android:title="New group" android:key="fabNewGroup" android:defaultValue="true"/>
+        <SwitchPreference android:icon="@null" android:title="New broadcast" android:key="fabNewBroadcast" android:defaultValue="true"/>
+        <SwitchPreference android:icon="@null" android:title="Search" android:key="fabSearch" android:defaultValue="true"/>
+        <SwitchPreference android:icon="@null" android:title="WhatsAppMD Settings" android:key="fabWAMDSettings" android:defaultValue="true"/>
     </PreferenceCategory>
 </PreferenceScreen><!-- From: file:/Users/brianvalente/whatsappmd/AndroidStudioProject/app/src/main/res/xml/fab_settings.xml -->

@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.Window;
@@ -28,8 +29,6 @@ import org.w3c.dom.Text;
  * Created by brianvalente on 5/4/15.
  */
 public class utils extends Activity {
-
-    private static Context context;
 
     public static void changeUIColor(Context context, ActionBar actionBar, Window window) {
         final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
@@ -229,5 +228,47 @@ public class utils extends Activity {
         }
 
         return value;
+    }
+
+    public static void initWhatsAppMD(Context context) {
+        final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
+        final SharedPreferences.Editor editor = settings.edit();
+
+        if (!(settings.getBoolean("WAMDinit", false))) {
+            
+            String actionBarColor = "36474f";
+            editor.putString("actionBarColor", actionBarColor);
+
+            String statusBarColor = "2c393f";
+            editor.putString("statusBarColor", statusBarColor);
+
+            String navBarColor = "36474f";
+            editor.putString("navBarColor", navBarColor);
+
+            String tabsColor = "36474f";
+            editor.putString("tabsColor", tabsColor);
+
+            String homeBackground = "ffffff";
+            editor.putString("colorsHomeBackground", homeBackground);
+
+            editor.putBoolean("actionBarPlusHomeTab", true);
+            editor.putBoolean("fabEnabled", true);
+            editor.putBoolean("fabNewChat", true);
+            editor.putBoolean("fabNewGroup", true);
+            editor.putBoolean("fabNewBroadcast", true);
+            editor.putBoolean("fabSearch", true);
+            editor.putBoolean("fabWAMDSettings", true);
+
+            editor.putBoolean("home_smallTabs", false);
+            editor.putBoolean("conversationNoContactPhoto", false);
+            editor.putBoolean("privacy_hideOnline", false);
+            editor.putBoolean("privacy_no2ndTick", false);
+            editor.putBoolean("privacy_noBlueTick", false);
+            editor.putBoolean("others_noColorPicker", false);
+
+
+            editor.putBoolean("WAMDinit", true);
+            editor.apply();
+        }
     }
 }

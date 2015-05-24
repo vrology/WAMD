@@ -3995,10 +3995,13 @@
 
     # WHATSAPPMD
 
+    invoke-virtual {p0}, Lcom/whatsapp/HomeActivity;->getApplicationContext()Landroid/content/Context;
+    move-result-object v0
+    invoke-static {v0}, Ltk/brianvalente/whatsappmd/utils;->initWhatsAppMD(Landroid/content/Context;)V
+
     invoke-virtual {p0}, Lcom/whatsapp/HomeActivity;->changeUIColor()V
     invoke-virtual {p0}, Lcom/whatsapp/HomeActivity;->fab()V
     invoke-virtual {p0}, Lcom/whatsapp/HomeActivity;->hideToolbarIcons()V
-
 
     # WHATSAPPMD END
 

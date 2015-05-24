@@ -49,6 +49,8 @@ public class WhatsAppMD extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        utils.initWhatsAppMD(getApplicationContext());
+
         utils.changeUIColor(getApplicationContext(),getActionBar(),getWindow());
 
         getFragmentManager().beginTransaction()
