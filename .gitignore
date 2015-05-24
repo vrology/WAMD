@@ -1,4 +1,5 @@
 
 *.apk
-
-res/.DS_Store
+build/
+dist/
+.DS_Store
