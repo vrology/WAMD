@@ -78,7 +78,7 @@
     <dimen name="autofocus_stroke_size">2.0dip</dimen>
     <dimen name="button_elevation">2.0dip</dimen>
     <dimen name="button_press_elevation">2.0dip</dimen>
-    <dimen name="card_h_padding">10.0dip</dimen>
+    <!--<dimen name="card_h_padding">10.0dip</dimen>-->
     <dimen name="card_h_padding2">30.0dip</dimen>
     <dimen name="card_v_padding">9.0dip</dimen>
     <dimen name="card_v_padding2">30.0dip</dimen>
@@ -170,6 +170,10 @@
 
 
     <!-- WHATSAPPMD -->
+
+    <!-- Profiles -->
+
+    <dimen name="card_h_padding">0.0dip</dimen>
 
     <!-- Floating Action Button -->
 

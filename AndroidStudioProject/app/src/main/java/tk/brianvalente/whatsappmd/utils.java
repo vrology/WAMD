@@ -235,7 +235,7 @@ public class utils extends Activity {
         final SharedPreferences.Editor editor = settings.edit();
 
         if (!(settings.getBoolean("WAMDinit", false))) {
-            
+
             String actionBarColor = "36474f";
             editor.putString("actionBarColor", actionBarColor);
 

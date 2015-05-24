@@ -1346,6 +1346,16 @@
     <style name="Theme.App.Gray" parent="@style/Theme.App">
         <item name="android:windowBackground">@color/gray_activity</item>
     </style>
+    
+    <!-- WHATSAPPMD -->
+    <style name="Theme.App.NoActionBar" parent="@style/Theme.App">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlowWithShadow</item>
+        <item name="homeAsUpIndicator">@drawable/ic_back_shadow</item>
+    </style>
+    <!-- WHATSAPPMD END -->
+
     <style name="Theme.App.Gray.NoActionBar" parent="@style/Theme.App.Gray">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
