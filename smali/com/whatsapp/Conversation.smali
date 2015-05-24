@@ -15150,7 +15150,7 @@
 
     .prologue
     .line 57
-    const-string v7, "app"
+    const-string v7, "whatsappmd"
 
     const/4 v8, 0x0
 
@@ -15438,7 +15438,7 @@
 
     move-result-object v3
 
-    const-string v4, "app"
+    const-string v4, "whatsappmd"
 
     invoke-virtual {v3, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

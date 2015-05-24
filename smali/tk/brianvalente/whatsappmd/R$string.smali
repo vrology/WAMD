@@ -83,7 +83,9 @@
 
 .field public static final title_activity_main:I = 0x7f0d0021
 
-.field public static final title_activity_settings:I = 0x7f0d0022
+.field public static final title_activity_material_drawer:I = 0x7f0d0022
+
+.field public static final title_activity_settings:I = 0x7f0d0023
 
 
 # direct methods
@@ -91,7 +93,7 @@
     .locals 0
 
     .prologue
-    .line 1623
+    .line 1627
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

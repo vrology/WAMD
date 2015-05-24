@@ -29,8 +29,10 @@ import org.w3c.dom.Text;
  */
 public class utils extends Activity {
 
-    public void changeUIColor() {
-        final SharedPreferences settings = getApplicationContext().getSharedPreferences("app", 0);
+    private static Context context;
+
+    public static void changeUIColor(Context context, ActionBar actionBar, Window window) {
+        final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
 
         if (!settings.contains("actionBarColor")) {
@@ -62,15 +64,15 @@ public class utils extends Activity {
         String tabsColor = "#" + settings.getString("tabsColor", "1e9688");
 
 
-        getActionBar().setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));
+        actionBar.setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));
 
 /*        findViewById(R.id.toolbar).setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));*/
 
 
         int currentapiVersion = Build.VERSION.SDK_INT;
         if (currentapiVersion >= Build.VERSION_CODES.LOLLIPOP){
-            getWindow().setStatusBarColor(Color.parseColor(statusBarColor));
-            getWindow().setNavigationBarColor(Color.parseColor(navBarColor));
+            window.setStatusBarColor(Color.parseColor(statusBarColor));
+            window.setNavigationBarColor(Color.parseColor(navBarColor));
         }
 
         if (!settings.contains("conversationNoContactPhoto")) {
@@ -83,7 +85,7 @@ public class utils extends Activity {
     public void fab() {
         final FloatingActionsMenu FAB = (FloatingActionsMenu) findViewById(R.id.always);
         final Context context = utils.this;
-        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("app", 0);
+        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("whatsappmd", 0);
 
         if (prefs.getBoolean("fabEnabled", false)) {
             FAB.setVisibility(View.VISIBLE);
@@ -105,7 +107,7 @@ public class utils extends Activity {
             fabNewGroup.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent newGroup = new Intent(context, test.class);
+                    Intent newGroup = new Intent(context, WhatsAppMD.class);
                     startActivity(newGroup);
                     FAB.collapse();
                 }
@@ -114,7 +116,7 @@ public class utils extends Activity {
             fabNewBroadcast.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent newBroadcast = new Intent(context, test.class);
+                    Intent newBroadcast = new Intent(context, WhatsAppMD.class);
                     startActivity(newBroadcast);
                     FAB.collapse();
                 }
@@ -132,7 +134,7 @@ public class utils extends Activity {
             fabWAMDSettings.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent WAMDSettings = new Intent(context, test.class);
+                    Intent WAMDSettings = new Intent(context, WhatsAppMD.class);
                     startActivity(WAMDSettings);
                     FAB.collapse();
                 }
@@ -149,7 +151,7 @@ public class utils extends Activity {
     }
 
     public void conversation() {
-        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("app", 0);
+        final SharedPreferences prefs = getApplicationContext().getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = prefs.edit();
 
         if (prefs.getBoolean("conversationNoContactPhoto", false)) {
@@ -159,7 +161,7 @@ public class utils extends Activity {
     }
 
     public void home() {
-        final SharedPreferences settings = getApplicationContext().getSharedPreferences("app", 0);
+        final SharedPreferences settings = getApplicationContext().getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
 
         if (!settings.contains("tabsColor")) {
@@ -205,5 +207,27 @@ public class utils extends Activity {
         ViewPager pager = (ViewPager) findViewById(R.id.list_item);
         String bgColor = "#" + settings.getString("colorsHomeBackground", "FFFFFF");
         pager.setBackgroundColor(Color.parseColor(bgColor));
+    }
+
+    public static boolean privacyCheckOptions(Context context, int optionID) {
+        final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
+        final SharedPreferences.Editor editor = settings.edit();
+        boolean value = false;
+
+        switch (optionID) {
+            case 0:
+                if(settings.getBoolean("privacy_hideLastSeen", false)) value = true;
+                break;
+            case 1:
+                if(settings.getBoolean("privacy_no2stTick", false)) value = true;
+                break;
+            case 2:
+                if(settings.getBoolean("privacy_noBlueTick", false)) value = true;
+                break;
+            default:
+                break;
+        }
+
+        return value;
     }
 }

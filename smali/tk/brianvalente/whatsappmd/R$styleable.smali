@@ -615,7 +615,7 @@
 
     const/4 v2, 0x0
 
-    .line 1969
+    .line 1975
     const/16 v0, 0x1b
 
     new-array v0, v0, [I
@@ -624,7 +624,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActionBar:[I
 
-    .line 2342
+    .line 2348
     new-array v0, v3, [I
 
     const v1, 0x10100b3
@@ -633,7 +633,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActionBarLayout:[I
 
-    .line 2361
+    .line 2367
     new-array v0, v3, [I
 
     const v1, 0x101013f
@@ -642,12 +642,12 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActionMenuItemView:[I
 
-    .line 2372
+    .line 2378
     new-array v0, v2, [I
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActionMenuView:[I
 
-    .line 2395
+    .line 2401
     const/4 v0, 0x6
 
     new-array v0, v0, [I
@@ -656,14 +656,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActionMode:[I
 
-    .line 2479
+    .line 2485
     new-array v0, v4, [I
 
     fill-array-data v0, :array_2
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ActivityChooserView:[I
 
-    .line 2516
+    .line 2522
     new-array v0, v3, [I
 
     const v1, 0x7f01001f
@@ -672,14 +672,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->AddFloatingActionButton:[I
 
-    .line 2546
+    .line 2552
     new-array v0, v4, [I
 
     fill-array-data v0, :array_3
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ColorPickerPreference:[I
 
-    .line 2587
+    .line 2593
     const/4 v0, 0x4
 
     new-array v0, v0, [I
@@ -688,7 +688,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ColorPickerView:[I
 
-    .line 2646
+    .line 2652
     new-array v0, v3, [I
 
     const v1, 0x7f010026
@@ -697,14 +697,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->CompatTextView:[I
 
-    .line 2684
+    .line 2690
     new-array v0, v5, [I
 
     fill-array-data v0, :array_5
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->DrawerArrowToggle:[I
 
-    .line 2835
+    .line 2841
     const/4 v0, 0x7
 
     new-array v0, v0, [I
@@ -713,14 +713,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->FloatingActionButton:[I
 
-    .line 2963
+    .line 2969
     new-array v0, v5, [I
 
     fill-array-data v0, :array_7
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->FloatingActionsMenu:[I
 
-    .line 3115
+    .line 3121
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -729,7 +729,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->LinearLayoutCompat:[I
 
-    .line 3225
+    .line 3231
     const/4 v0, 0x4
 
     new-array v0, v0, [I
@@ -738,14 +738,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->LinearLayoutCompat_Layout:[I
 
-    .line 3264
+    .line 3270
     new-array v0, v4, [I
 
     fill-array-data v0, :array_a
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->ListPopupWindow:[I
 
-    .line 3299
+    .line 3305
     const/4 v0, 0x6
 
     new-array v0, v0, [I
@@ -754,7 +754,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->MenuGroup:[I
 
-    .line 3381
+    .line 3387
     const/16 v0, 0x11
 
     new-array v0, v0, [I
@@ -763,21 +763,21 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->MenuItem:[I
 
-    .line 3548
+    .line 3554
     new-array v0, v5, [I
 
     fill-array-data v0, :array_d
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->MenuView:[I
 
-    .line 3620
+    .line 3626
     new-array v0, v4, [I
 
     fill-array-data v0, :array_e
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->PopupWindow:[I
 
-    .line 3653
+    .line 3659
     new-array v0, v3, [I
 
     const v1, 0x7f010047
@@ -786,7 +786,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->PopupWindowBackgroundState:[I
 
-    .line 3708
+    .line 3714
     const/16 v0, 0xf
 
     new-array v0, v0, [I
@@ -795,7 +795,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->SearchView:[I
 
-    .line 3886
+    .line 3892
     const/16 v0, 0xb
 
     new-array v0, v0, [I
@@ -804,7 +804,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->Spinner:[I
 
-    .line 4012
+    .line 4018
     const/16 v0, 0xa
 
     new-array v0, v0, [I
@@ -813,7 +813,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->SwitchCompat:[I
 
-    .line 4305
+    .line 4311
     const/16 v0, 0x53
 
     new-array v0, v0, [I
@@ -822,7 +822,7 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->Theme:[I
 
-    .line 5356
+    .line 5362
     const/16 v0, 0x16
 
     new-array v0, v0, [I
@@ -831,14 +831,14 @@
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->Toolbar:[I
 
-    .line 5666
+    .line 5672
     new-array v0, v6, [I
 
     fill-array-data v0, :array_14
 
     sput-object v0, Ltk/brianvalente/whatsappmd/R$styleable;->View:[I
 
-    .line 5721
+    .line 5727
     new-array v0, v6, [I
 
     fill-array-data v0, :array_15
@@ -847,7 +847,7 @@
 
     return-void
 
-    .line 1969
+    .line 1975
     nop
 
     :array_0
@@ -881,7 +881,7 @@
         0x7f010087
     .end array-data
 
-    .line 2395
+    .line 2401
     :array_1
     .array-data 4
         0x7f010001
@@ -892,21 +892,21 @@
         0x7f01001c
     .end array-data
 
-    .line 2479
+    .line 2485
     :array_2
     .array-data 4
         0x7f01001d
         0x7f01001e
     .end array-data
 
-    .line 2546
+    .line 2552
     :array_3
     .array-data 4
         0x7f010020
         0x7f010021
     .end array-data
 
-    .line 2587
+    .line 2593
     :array_4
     .array-data 4
         0x7f010022
@@ -915,7 +915,7 @@
         0x7f010025
     .end array-data
 
-    .line 2684
+    .line 2690
     :array_5
     .array-data 4
         0x7f010027
@@ -928,7 +928,7 @@
         0x7f01002e
     .end array-data
 
-    .line 2835
+    .line 2841
     :array_6
     .array-data 4
         0x7f01002f
@@ -940,7 +940,7 @@
         0x7f010035
     .end array-data
 
-    .line 2963
+    .line 2969
     :array_7
     .array-data 4
         0x7f010036
@@ -953,7 +953,7 @@
         0x7f01003d
     .end array-data
 
-    .line 3115
+    .line 3121
     :array_8
     .array-data 4
         0x10100af
@@ -967,7 +967,7 @@
         0x7f010040
     .end array-data
 
-    .line 3225
+    .line 3231
     :array_9
     .array-data 4
         0x10100b3
@@ -976,14 +976,14 @@
         0x1010181
     .end array-data
 
-    .line 3264
+    .line 3270
     :array_a
     .array-data 4
         0x10102ac
         0x10102ad
     .end array-data
 
-    .line 3299
+    .line 3305
     :array_b
     .array-data 4
         0x101000e
@@ -994,7 +994,7 @@
         0x10101e0
     .end array-data
 
-    .line 3381
+    .line 3387
     :array_c
     .array-data 4
         0x1010002
@@ -1016,7 +1016,7 @@
         0x7f010044
     .end array-data
 
-    .line 3548
+    .line 3554
     :array_d
     .array-data 4
         0x10100ae
@@ -1029,14 +1029,14 @@
         0x7f010045
     .end array-data
 
-    .line 3620
+    .line 3626
     :array_e
     .array-data 4
         0x1010176
         0x7f010046
     .end array-data
 
-    .line 3708
+    .line 3714
     :array_f
     .array-data 4
         0x10100da
@@ -1056,7 +1056,7 @@
         0x7f010052
     .end array-data
 
-    .line 3886
+    .line 3892
     :array_10
     .array-data 4
         0x10100af
@@ -1072,7 +1072,7 @@
         0x7f010056
     .end array-data
 
-    .line 4012
+    .line 4018
     :array_11
     .array-data 4
         0x1010124
@@ -1087,7 +1087,7 @@
         0x7f01005d
     .end array-data
 
-    .line 4305
+    .line 4311
     :array_12
     .array-data 4
         0x1010057
@@ -1175,7 +1175,7 @@
         0x7f0100af
     .end array-data
 
-    .line 5356
+    .line 5362
     :array_13
     .array-data 4
         0x10100af
@@ -1202,7 +1202,7 @@
         0x7f0100bc
     .end array-data
 
-    .line 5666
+    .line 5672
     :array_14
     .array-data 4
         0x10100da
@@ -1210,7 +1210,7 @@
         0x7f0100be
     .end array-data
 
-    .line 5721
+    .line 5727
     :array_15
     .array-data 4
         0x10100d0
@@ -1223,7 +1223,7 @@
     .locals 0
 
     .prologue
-    .line 1906
+    .line 1912
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

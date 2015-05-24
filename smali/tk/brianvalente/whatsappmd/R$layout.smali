@@ -61,15 +61,17 @@
 
 .field public static final abc_simple_dropdown_hint:I = 0x7f040016
 
-.field public static final activity_whats_app_md:I = 0x7f040017
+.field public static final activity_material_drawer:I = 0x7f040017
 
-.field public static final dialog_color_picker:I = 0x7f040018
+.field public static final activity_whats_app_md:I = 0x7f040018
 
-.field public static final fab:I = 0x7f040019
+.field public static final dialog_color_picker:I = 0x7f040019
 
-.field public static final preference_preview_layout:I = 0x7f04001a
+.field public static final fab:I = 0x7f04001a
 
-.field public static final support_simple_spinner_dropdown_item:I = 0x7f04001b
+.field public static final preference_preview_layout:I = 0x7f04001b
+
+.field public static final support_simple_spinner_dropdown_item:I = 0x7f04001c
 
 
 # direct methods
@@ -77,7 +79,7 @@
     .locals 0
 
     .prologue
-    .line 1586
+    .line 1588
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

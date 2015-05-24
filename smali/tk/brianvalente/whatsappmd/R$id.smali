@@ -41,7 +41,7 @@
 
 .field public static final action_mode_close_button:I = 0x7f0b002b
 
-.field public static final action_settings:I = 0x7f0b004d
+.field public static final action_settings:I = 0x7f0b004e
 
 .field public static final activity_chooser_view_content:I = 0x7f0b002c
 
@@ -81,6 +81,10 @@
 
 .field public static final expanded_menu:I = 0x7f0b0033
 
+.field public static final fabContainer:I = 0x7f0b004c
+
+.field public static final fabNewChat:I = 0x7f0b004d
+
 .field public static final fab_expand_menu_button:I = 0x7f0b0008
 
 .field public static final fab_label:I = 0x7f0b0009
@@ -95,7 +99,7 @@
 
 .field public static final image:I = 0x7f0b002e
 
-.field public static final layout1:I = 0x7f0b004a
+.field public static final layout1:I = 0x7f0b004b
 
 .field public static final left:I = 0x7f0b001b
 
@@ -106,10 +110,6 @@
 .field public static final middle:I = 0x7f0b0020
 
 .field public static final mini:I = 0x7f0b001a
-
-.field public static final multiple_actions_down:I = 0x7f0b004c
-
-.field public static final multiple_actions_left:I = 0x7f0b004b
 
 .field public static final never:I = 0x7f0b0024
 
@@ -163,6 +163,8 @@
 
 .field public static final title:I = 0x7f0b0032
 
+.field public static final toolbar:I = 0x7f0b004a
+
 .field public static final up:I = 0x7f0b000f
 
 .field public static final useLogo:I = 0x7f0b0019
@@ -177,7 +179,7 @@
     .locals 0
 
     .prologue
-    .line 1503
+    .line 1504
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

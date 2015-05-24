@@ -158,7 +158,7 @@
 
     .prologue
     .line 57
-    const-string v7, "app"
+    const-string v7, "whatsappmd"
 
     const/4 v8, 0x0
 

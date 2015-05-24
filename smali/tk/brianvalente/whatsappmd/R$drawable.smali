@@ -123,7 +123,9 @@
 
 .field public static final fab_label_background:I = 0x7f020035
 
-.field public static final icon:I = 0x7f020036
+.field public static final header:I = 0x7f020036
+
+.field public static final icon:I = 0x7f020037
 
 
 # direct methods

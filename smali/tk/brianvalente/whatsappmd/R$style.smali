@@ -129,29 +129,29 @@
 
 .field public static final Base_Theme_AppCompat_Light_Dialog_FixedSize:I = 0x7f0e0032
 
-.field public static final Base_V11_Theme_AppCompat:I = 0x7f0e00e2
+.field public static final Base_V11_Theme_AppCompat:I = 0x7f0e00e3
 
-.field public static final Base_V11_Theme_AppCompat_Dialog:I = 0x7f0e00e3
+.field public static final Base_V11_Theme_AppCompat_Dialog:I = 0x7f0e00e4
 
-.field public static final Base_V11_Theme_AppCompat_Light:I = 0x7f0e00e4
+.field public static final Base_V11_Theme_AppCompat_Light:I = 0x7f0e00e5
 
-.field public static final Base_V11_Theme_AppCompat_Light_Dialog:I = 0x7f0e00e5
+.field public static final Base_V11_Theme_AppCompat_Light_Dialog:I = 0x7f0e00e6
 
-.field public static final Base_V14_Theme_AppCompat:I = 0x7f0e00e6
+.field public static final Base_V14_Theme_AppCompat:I = 0x7f0e00e7
 
-.field public static final Base_V14_Theme_AppCompat_Dialog:I = 0x7f0e00e7
+.field public static final Base_V14_Theme_AppCompat_Dialog:I = 0x7f0e00e8
 
-.field public static final Base_V14_Theme_AppCompat_Light:I = 0x7f0e00e8
+.field public static final Base_V14_Theme_AppCompat_Light:I = 0x7f0e00e9
 
-.field public static final Base_V14_Theme_AppCompat_Light_Dialog:I = 0x7f0e00e9
+.field public static final Base_V14_Theme_AppCompat_Light_Dialog:I = 0x7f0e00ea
 
-.field public static final Base_V21_Theme_AppCompat:I = 0x7f0e00ea
+.field public static final Base_V21_Theme_AppCompat:I = 0x7f0e00eb
 
-.field public static final Base_V21_Theme_AppCompat_Dialog:I = 0x7f0e00eb
+.field public static final Base_V21_Theme_AppCompat_Dialog:I = 0x7f0e00ec
 
-.field public static final Base_V21_Theme_AppCompat_Light:I = 0x7f0e00ec
+.field public static final Base_V21_Theme_AppCompat_Light:I = 0x7f0e00ed
 
-.field public static final Base_V21_Theme_AppCompat_Light_Dialog:I = 0x7f0e00ed
+.field public static final Base_V21_Theme_AppCompat_Light_Dialog:I = 0x7f0e00ee
 
 .field public static final Base_V7_Theme_AppCompat:I = 0x7f0e0039
 
@@ -489,7 +489,9 @@
 
 .field public static final dialog_color_pciker_view_portrait:I = 0x7f0e00e0
 
-.field public static final menu_labels_style:I = 0x7f0e00e1
+.field public static final fab_style:I = 0x7f0e00e1
+
+.field public static final menu_labels_style:I = 0x7f0e00e2
 
 
 # direct methods
@@ -497,7 +499,7 @@
     .locals 0
 
     .prologue
-    .line 1660
+    .line 1665
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

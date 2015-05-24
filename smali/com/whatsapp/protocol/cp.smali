@@ -60811,7 +60811,7 @@
     .line 1852
     new-instance v2, Lcom/whatsapp/protocol/a1;
 
-    if-eqz p1, :cond_0
+    # if-eqz p1, :cond_0
 
     sget-object v0, Lcom/whatsapp/protocol/cp;->N:[Ljava/lang/String;
 
@@ -60926,6 +60926,7 @@
     throw v0
 
     :cond_0
+    # WHATSAPPMD
     sget-object v0, Lcom/whatsapp/protocol/cp;->N:[Ljava/lang/String;
 
     const/16 v3, 0xd3
@@ -61943,7 +61944,7 @@
 
     aget-object v6, v0, v6
 
-    if-eqz p1, :cond_0
+    # if-eqz p1, :cond_0
 
     sget-object v0, Lcom/whatsapp/protocol/cp;->N:[Ljava/lang/String;
 
@@ -61993,11 +61994,12 @@
     throw v0
 
     :cond_0
-    sget-object v0, Lcom/whatsapp/protocol/cp;->N:[Ljava/lang/String;
+    # WHATSAPPMD
+    # sget-object v0, Lcom/whatsapp/protocol/cp;->N:[Ljava/lang/String;
 
-    const/16 v7, 0x5db
+    # const/16 v7, 0x5db
 
-    aget-object v0, v0, v7
+    # aget-object v0, v0, v7
 
     goto :goto_0
 .end method
