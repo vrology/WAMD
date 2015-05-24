@@ -21,9 +21,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white"
-        fab:fab_addButtonPlusIconColor="@color/black"
+        fab:fab_addButtonColorNormal="#ff444444"
+        fab:fab_addButtonColorPressed="#ff444444"
+        fab:fab_addButtonPlusIconColor="@color/white"
         fab:fab_labelStyle="@style/menu_labels_style"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -37,8 +37,8 @@
             android:id="@id/FAB_A"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white"
+            fab:fab_colorNormal="#ffffffff"
+            fab:fab_colorPressed="#ffffffff"
             fab:fab_size="mini"
             fab:fab_icon="@drawable/whatsappmd_fab_newchat"/>
 
@@ -46,8 +46,8 @@
             android:id="@id/FAB_B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white"
+            fab:fab_colorNormal="#ffffffff"
+            fab:fab_colorPressed="#ffffffff"
             fab:fab_size="mini"
             fab:fab_icon="@drawable/whatsappmd_fab_newgroup"/>
 
@@ -55,8 +55,8 @@
             android:id="@id/FAB_C"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white"
+            fab:fab_colorNormal="#ffffffff"
+            fab:fab_colorPressed="#ffffffff"
             fab:fab_size="mini"
             fab:fab_icon="@drawable/whatsappmd_fab_broadcast"/>
 
@@ -64,8 +64,8 @@
             android:id="@id/FAB_D"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white"
+            fab:fab_colorNormal="#ffffffff"
+            fab:fab_colorPressed="#ffffffff"
             fab:fab_size="mini"
             fab:fab_icon="@drawable/whatsappmd_fab_search"/>
 
@@ -73,8 +73,8 @@
             android:id="@id/FAB_E"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white"
+            fab:fab_colorNormal="#ffffffff"
+            fab:fab_colorPressed="#ffffffff"
             fab:fab_size="mini"
             fab:fab_icon="@drawable/whatsappmd_fab_wamdsettings"/>
 
