@@ -5395,6 +5395,8 @@
     <public type="xml" name="whatsappmd_settings" id="0x7f060011" />
     <public type="xml" name="fab_settings" id="0x7f060012" />
 
+    <public type="color" name="homeBg" id="0x7f0e0080" />
+
 
     <!-- Color picker -->
 

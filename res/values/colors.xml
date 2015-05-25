@@ -126,6 +126,7 @@
     <color name="primary">#ff36474f</color>
     <color name="primary_dark">#ff2c393f</color>
     <color name="accent">#ff555555</color>
+    <color name="homeBg">#ffffffff</color>
 
     <!-- Floating Action Button -->
 

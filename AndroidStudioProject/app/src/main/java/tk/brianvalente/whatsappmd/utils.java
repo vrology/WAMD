@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -40,33 +41,38 @@ public class utils extends Activity {
         final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
 
+        Resources res = context.getResources();
+
+        String primary = Integer.toHexString(res.getColor(R.color.primary) & 0x00ffffff);
+        String primaryDark = Integer.toHexString(res.getColor(R.color.primary_dark) & 0x00ffffff);
+
         if (!settings.contains("actionBarColor")) {
-            String actionBarColor = "1e9688";
+            String actionBarColor = primary;
             editor.putString("actionBarColor", actionBarColor);
             editor.apply();
         }
-        String actionBarColor = "#" + settings.getString("actionBarColor", "1e9688");
+        String actionBarColor = "#" + settings.getString("actionBarColor", primary);
 
         if (!settings.contains("statusBarColor")) {
-            String statusBarColor = "1a7e73";
+            String statusBarColor = primaryDark;
             editor.putString("statusBarColor", statusBarColor);
             editor.apply();
         }
-        String statusBarColor = "#" + settings.getString("statusBarColor", "1a7e73");
+        String statusBarColor = "#" + settings.getString("statusBarColor", primaryDark);
 
         if (!settings.contains("navBarColor")) {
-            String navBarColor = "555555";
+            String navBarColor = primary;
             editor.putString("navBarColor", navBarColor);
             editor.apply();
         }
-        String navBarColor = "#" + settings.getString("navBarColor", "555555");
+        String navBarColor = "#" + settings.getString("navBarColor", primary);
 
         if (!settings.contains("tabsColor")) {
-            String tabsColor = "1e9688";
+            String tabsColor = primary;
             editor.putString("tabsColor", tabsColor);
             editor.apply();
         }
-        String tabsColor = "#" + settings.getString("tabsColor", "1e9688");
+        String tabsColor = "#" + settings.getString("tabsColor", primary);
 
 
         actionBar.setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));
@@ -78,10 +84,6 @@ public class utils extends Activity {
         if (currentapiVersion >= Build.VERSION_CODES.LOLLIPOP){
             window.setStatusBarColor(Color.parseColor(statusBarColor));
             window.setNavigationBarColor(Color.parseColor(navBarColor));
-        }
-
-        if (!settings.contains("conversationNoContactPhoto")) {
-            editor.putBoolean("conversationNoContactPhoto", false);
         }
     }
 
@@ -240,22 +242,18 @@ public class utils extends Activity {
         final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
 
+        Resources res = context.getResources();
+        String primary = Integer.toHexString(res.getColor(R.color.primary) & 0x00ffffff);
+        String primaryDark = Integer.toHexString(res.getColor(R.color.primary_dark) & 0x00ffffff);
+        String homeBg = Integer.toHexString(res.getColor(R.color.homeBg) & 0x00ffffff);
+
         if (!(settings.getBoolean("WAMDinit", false))) {
 
-            String actionBarColor = "36474f";
-            editor.putString("actionBarColor", actionBarColor);
-
-            String statusBarColor = "2c393f";
-            editor.putString("statusBarColor", statusBarColor);
-
-            String navBarColor = "36474f";
-            editor.putString("navBarColor", navBarColor);
-
-            String tabsColor = "36474f";
-            editor.putString("tabsColor", tabsColor);
-
-            String homeBackground = "ffffff";
-            editor.putString("colorsHomeBackground", homeBackground);
+            editor.putString("actionBarColor", primary);
+            editor.putString("statusBarColor", primaryDark);
+            editor.putString("navBarColor", primary);
+            editor.putString("tabsColor", primary);
+            editor.putString("colorsHomeBackground", homeBg);
 
             editor.putBoolean("actionBarPlusHomeTab", true);
             editor.putBoolean("fabEnabled", true);
@@ -272,8 +270,8 @@ public class utils extends Activity {
             editor.putBoolean("privacy_noBlueTick", false);
             editor.putBoolean("others_noColorPicker", false);
 
-
             editor.putBoolean("WAMDinit", true);
+
             editor.apply();
         }
     }
