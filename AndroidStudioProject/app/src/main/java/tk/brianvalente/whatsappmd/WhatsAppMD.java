@@ -399,25 +399,25 @@ public class WhatsAppMD extends Activity {
 
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
-                                    String actionBarColor = "36474f";
-                                    editor.putString("actionBarColor", actionBarColor);
-                                    String statusBarColor = "2c393f";
-                                    editor.putString("statusBarColor", statusBarColor);
-                                    String navBarColor = "2c393f";
-                                    editor.putString("navBarColor", navBarColor);
-                                    String tabsColor = "36474f";
-                                    editor.putString("tabsColor", tabsColor);
-                                    String homeBackground = "ffffff";
-                                    editor.putString("colorsHomeBackground", homeBackground);
+                                    Resources res = getApplicationContext().getResources();
+                                    String primary = Integer.toHexString(res.getColor(R.color.primary) & 0x00ffffff);
+                                    String primaryDark = Integer.toHexString(res.getColor(R.color.primary_dark) & 0x00ffffff);
+                                    String homeBg = Integer.toHexString(res.getColor(R.color.homeBg) & 0x00ffffff);
+
+                                    editor.putString("actionBarColor", primary);
+                                    editor.putString("statusBarColor", primaryDark);
+                                    editor.putString("navBarColor", primary);
+                                    editor.putString("tabsColor", primary);
+                                    editor.putString("colorsHomeBackground", homeBg);
                                     editor.apply();
 
-                                    actionBarColor = "#" + prefs.getString("actionBarColor", "1e9688");
+                                    String actionBarColor = "#" + prefs.getString("actionBarColor", "1e9688");
                                     actionBar.setBackgroundDrawable(new ColorDrawable((Color.parseColor(actionBarColor))));
 
                                     int currentapiVersion = Build.VERSION.SDK_INT;
                                     if (currentapiVersion >= Build.VERSION_CODES.LOLLIPOP){
-                                        statusBarColor = "#" + prefs.getString("statusBarColor", "1a7e73");
-                                        navBarColor = "#" + prefs.getString("navBarColor", "555555");
+                                        String statusBarColor = "#" + prefs.getString("statusBarColor", "1a7e73");
+                                        String navBarColor = "#" + prefs.getString("navBarColor", "555555");
                                         getWindow().setStatusBarColor(Color.parseColor(statusBarColor));
                                         getWindow().setNavigationBarColor(Color.parseColor(navBarColor));
                                     }

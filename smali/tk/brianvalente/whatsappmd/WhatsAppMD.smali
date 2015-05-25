@@ -19,7 +19,7 @@
     .line 45
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
-    .line 59
+    .line 69
     return-void
 .end method
 
@@ -38,6 +38,13 @@
 
     move-result-object v0
 
+    invoke-static {v0}, Ltk/brianvalente/whatsappmd/utils;->initWhatsAppMD(Landroid/content/Context;)V
+
+    .line 54
+    invoke-virtual {p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
     invoke-virtual {p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v1
@@ -48,7 +55,7 @@
 
     invoke-static {v0, v1, v2}, Ltk/brianvalente/whatsappmd/utils;->changeUIColor(Landroid/content/Context;Landroid/app/ActionBar;Landroid/view/Window;)V
 
-    .line 54
+    .line 56
     invoke-virtual {p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v0
@@ -63,14 +70,14 @@
 
     invoke-direct {v2, p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;-><init>(Ltk/brianvalente/whatsappmd/WhatsAppMD;)V
 
-    .line 55
+    .line 57
     invoke-virtual {v0, v1, v2}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
     move-result-object v0
 
-    .line 56
+    .line 58
     invoke-virtual {v0}, Landroid/app/FragmentTransaction;->commit()I
 
-    .line 57
+    .line 67
     return-void
 .end method

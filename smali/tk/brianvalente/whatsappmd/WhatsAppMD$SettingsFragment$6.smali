@@ -41,7 +41,7 @@
     .param p1, "this$1"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     .prologue
-    .line 383
+    .line 393
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6;->val$editor:Landroid/content/SharedPreferences$Editor;
@@ -70,7 +70,7 @@
     .param p1, "preference"    # Landroid/preference/Preference;
 
     .prologue
-    .line 385
+    .line 395
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
@@ -81,14 +81,14 @@
 
     const-string v1, "Restore defaults"
 
-    .line 386
+    .line 396
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const-string v1, "Are you sure you want to restore colors to default values?"
 
-    .line 387
+    .line 397
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -99,7 +99,7 @@
 
     invoke-direct {v2, p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6$1;-><init>(Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6;)V
 
-    .line 388
+    .line 398
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -108,15 +108,15 @@
 
     const/4 v2, 0x0
 
-    .line 430
+    .line 440
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 431
+    .line 441
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
-    .line 433
+    .line 443
     const/4 v0, 0x1
 
     return v0

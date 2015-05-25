@@ -29,7 +29,7 @@
     .param p1, "this$2"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     .prologue
-    .line 95
+    .line 105
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->val$input:Landroid/widget/EditText;
@@ -47,7 +47,7 @@
     .param p2, "whichButton"    # I
 
     .prologue
-    .line 97
+    .line 107
     iget-object v2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->val$input:Landroid/widget/EditText;
 
     invoke-virtual {v2}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    .line 98
+    .line 108
     .local v1, "value":Ljava/lang/String;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    .line 99
+    .line 109
     .local v0, "color4":Ljava/lang/String;
     iget-object v2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
@@ -96,14 +96,14 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->setStatusBarColor(I)V
 
-    .line 100
+    .line 110
     iget-object v2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     iget-object v2, v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;->val$colorsSectionStatusBar:Landroid/preference/Preference;
 
     invoke-virtual {v2, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 101
+    .line 111
     iget-object v2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     iget-object v2, v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;->val$editor:Landroid/content/SharedPreferences$Editor;
@@ -112,13 +112,13 @@
 
     invoke-interface {v2, v3, v1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 102
+    .line 112
     iget-object v2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1$1;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     iget-object v2, v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;->val$editor:Landroid/content/SharedPreferences$Editor;
 
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 103
+    .line 113
     return-void
 .end method

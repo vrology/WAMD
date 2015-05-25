@@ -24,7 +24,7 @@
     .param p1, "this$0"    # Ltk/brianvalente/whatsappmd/WhatsAppMD;
 
     .prologue
-    .line 59
+    .line 69
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;->this$0:Ltk/brianvalente/whatsappmd/WhatsAppMD;
 
     invoke-direct {p0}, Landroid/preference/PreferenceFragment;-><init>()V
@@ -39,15 +39,15 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    .line 62
+    .line 72
     invoke-super/range {p0 .. p1}, Landroid/preference/PreferenceFragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 64
+    .line 74
     invoke-virtual/range {p0 .. p0}, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v24
 
-    .line 65
+    .line 75
     .local v24, "prefMgr":Landroid/preference/PreferenceManager;
     const-string v2, "whatsappmd"
 
@@ -55,14 +55,14 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/PreferenceManager;->setSharedPreferencesName(Ljava/lang/String;)V
 
-    .line 67
+    .line 77
     const v2, 0x7f060011
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v2}, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;->addPreferencesFromResource(I)V
 
-    .line 69
+    .line 79
     move-object/from16 v0, p0
 
     iget-object v2, v0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;->this$0:Ltk/brianvalente/whatsappmd/WhatsAppMD;
@@ -79,25 +79,25 @@
 
     move-result-object v4
 
-    .line 70
+    .line 80
     .local v4, "prefs":Landroid/content/SharedPreferences;
     invoke-interface {v4}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v7
 
-    .line 71
+    .line 81
     .local v7, "editor":Landroid/content/SharedPreferences$Editor;
     const-string v22, "Insert HEX code (without #)"
 
-    .line 72
+    .line 82
     .local v22, "hexAlertMessage":Ljava/lang/String;
     const-string v20, "Ok"
 
-    .line 73
+    .line 83
     .local v20, "hexAlertAccept":Ljava/lang/String;
     const-string v21, "Cancel"
 
-    .line 74
+    .line 84
     .local v21, "hexAlertCancel":Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -107,7 +107,7 @@
 
     move-result-object v5
 
-    .line 77
+    .line 87
     .local v5, "actionBar":Landroid/app/ActionBar;
     const-string v2, "colors_statusbar"
 
@@ -117,7 +117,7 @@
 
     move-result-object v14
 
-    .line 78
+    .line 88
     .local v14, "colorsSectionStatusBar":Landroid/preference/Preference;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -147,7 +147,7 @@
 
     invoke-virtual {v14, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 79
+    .line 89
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$1;
 
     move-object/from16 v0, p0
@@ -156,7 +156,7 @@
 
     invoke-virtual {v14, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 148
+    .line 158
     const-string v2, "colors_navbar"
 
     move-object/from16 v0, p0
@@ -165,7 +165,7 @@
 
     move-result-object v16
 
-    .line 149
+    .line 159
     .local v16, "colorsSectionNavBar":Landroid/preference/Preference;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -197,7 +197,7 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 150
+    .line 160
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$2;
 
     move-object/from16 v0, p0
@@ -210,10 +210,10 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 218
+    .line 228
     sget v18, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    .line 219
+    .line 229
     .local v18, "currentapiVersion":I
     const/16 v2, 0x15
 
@@ -221,35 +221,35 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 220
+    .line 230
     const-string v23, "Only Lollipop and up"
 
-    .line 221
+    .line 231
     .local v23, "message":Ljava/lang/String;
     const/4 v2, 0x0
 
     invoke-virtual {v14, v2}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    .line 222
+    .line 232
     const/4 v2, 0x0
 
     move-object/from16 v0, v16
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    .line 223
+    .line 233
     const-string v2, "Only Lollipop and up"
 
     invoke-virtual {v14, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 224
+    .line 234
     const-string v2, "Only Lollipop and up"
 
     move-object/from16 v0, v16
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 228
+    .line 238
     .end local v23    # "message":Ljava/lang/String;
     :cond_0
     const-string v2, "colors_actionbar"
@@ -260,7 +260,7 @@
 
     move-result-object v6
 
-    .line 229
+    .line 239
     .local v6, "colorsSectionActionBar":Landroid/preference/Preference;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -290,7 +290,7 @@
 
     invoke-virtual {v6, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 230
+    .line 240
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$3;
 
     move-object/from16 v3, p0
@@ -299,7 +299,7 @@
 
     invoke-virtual {v6, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 305
+    .line 315
     const-string v2, "colors_hometabs"
 
     move-object/from16 v0, p0
@@ -308,7 +308,7 @@
 
     move-result-object v15
 
-    .line 306
+    .line 316
     .local v15, "colorsSectionHomeTabs":Landroid/preference/Preference;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -338,7 +338,7 @@
 
     invoke-virtual {v15, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 307
+    .line 317
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;
 
     move-object/from16 v0, p0
@@ -347,7 +347,7 @@
 
     invoke-virtual {v15, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 373
+    .line 383
     const-string v2, "fab_settings"
 
     move-object/from16 v0, p0
@@ -356,7 +356,7 @@
 
     move-result-object v19
 
-    .line 374
+    .line 384
     .local v19, "fabSettings":Landroid/preference/Preference;
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$5;
 
@@ -368,7 +368,7 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 382
+    .line 392
     const-string v2, "colors_restoreDefaults"
 
     move-object/from16 v0, p0
@@ -377,7 +377,7 @@
 
     move-result-object v25
 
-    .line 383
+    .line 393
     .local v25, "restoreDefaults":Landroid/preference/Preference;
     new-instance v8, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$6;
 
@@ -397,7 +397,7 @@
 
     invoke-virtual {v0, v8}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 437
+    .line 447
     const-string v2, "colors_homeBackground"
 
     move-object/from16 v0, p0
@@ -406,7 +406,7 @@
 
     move-result-object v17
 
-    .line 438
+    .line 448
     .local v17, "colorsHomeBackground":Landroid/preference/Preference;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -438,7 +438,7 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 439
+    .line 449
     new-instance v2, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$7;
 
     move-object/from16 v0, p0
@@ -451,7 +451,7 @@
 
     invoke-virtual {v0, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
-    .line 505
+    .line 515
     const-string v2, "actionBarPlusHomeTab"
 
     move-object/from16 v0, p0
@@ -462,7 +462,7 @@
 
     check-cast v10, Landroid/preference/SwitchPreference;
 
-    .line 506
+    .line 516
     .local v10, "colorsCombineActionBarHomeTabs":Landroid/preference/SwitchPreference;
     const-string v2, "actionBarPlusHomeTab"
 
@@ -474,17 +474,17 @@
 
     if-eqz v2, :cond_1
 
-    .line 508
+    .line 518
     const/4 v2, 0x0
 
     invoke-virtual {v15, v2}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    .line 509
+    .line 519
     const-string v2, "Using the same color as Action Bar"
 
     invoke-virtual {v15, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 511
+    .line 521
     :cond_1
     new-instance v8, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;
 
@@ -500,6 +500,6 @@
 
     invoke-virtual {v10, v8}, Landroid/preference/SwitchPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    .line 529
+    .line 539
     return-void
 .end method

@@ -27,7 +27,7 @@
     .param p1, "this$2"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$7;
 
     .prologue
-    .line 490
+    .line 500
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$7$4;->this$2:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$7;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,6 +43,6 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 495
+    .line 505
     return-void
 .end method

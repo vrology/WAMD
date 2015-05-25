@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     .prologue
-    .line 374
+    .line 384
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$5;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p1, "preference"    # Landroid/preference/Preference;
 
     .prologue
-    .line 376
+    .line 386
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$5;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
@@ -53,13 +53,13 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 377
+    .line 387
     .local v0, "fabSettingsIntent":Landroid/content/Intent;
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$5;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     invoke-virtual {v1, v0}, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;->startActivity(Landroid/content/Intent;)V
 
-    .line 378
+    .line 388
     const/4 v1, 0x1
 
     return v1

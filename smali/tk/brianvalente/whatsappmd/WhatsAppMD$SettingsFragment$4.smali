@@ -33,7 +33,7 @@
     .param p1, "this$1"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     .prologue
-    .line 307
+    .line 317
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->val$prefs:Landroid/content/SharedPreferences;
@@ -58,7 +58,7 @@
 
     const/4 v8, 0x0
 
-    .line 309
+    .line 319
     iget-object v5, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->val$prefs:Landroid/content/SharedPreferences;
 
     const-string v6, "tabsColor"
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    .line 310
+    .line 320
     .local v1, "color":Ljava/lang/String;
     iget-object v5, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->val$prefs:Landroid/content/SharedPreferences;
 
@@ -85,7 +85,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 312
+    .line 322
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     iget-object v5, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
@@ -94,18 +94,18 @@
 
     invoke-direct {v0, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 314
+    .line 324
     .local v0, "alert":Landroid/app/AlertDialog$Builder;
     const-string v5, "Home tabs color"
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 315
+    .line 325
     const-string v5, "Insert HEX code (without #)"
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 318
+    .line 328
     new-instance v4, Landroid/widget/EditText;
 
     iget-object v5, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
@@ -114,7 +114,7 @@
 
     invoke-direct {v4, v5}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
 
-    .line 319
+    .line 329
     .local v4, "input":Landroid/widget/EditText;
     new-array v5, v9, [Landroid/text/InputFilter;
 
@@ -128,13 +128,13 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 320
+    .line 330
     invoke-virtual {v4, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 321
+    .line 331
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    .line 323
+    .line 333
     const-string v5, "Ok"
 
     new-instance v6, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4$1;
@@ -143,7 +143,7 @@
 
     invoke-virtual {v0, v5, v6}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 333
+    .line 343
     const-string v5, "Cancel"
 
     new-instance v6, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4$2;
@@ -152,16 +152,16 @@
 
     invoke-virtual {v0, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 339
+    .line 349
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
-    .line 368
+    .line 378
     .end local v0    # "alert":Landroid/app/AlertDialog$Builder;
     .end local v4    # "input":Landroid/widget/EditText;
     :goto_0
     return v9
 
-    .line 341
+    .line 351
     :cond_0
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -181,7 +181,7 @@
 
     move-result-object v2
 
-    .line 344
+    .line 354
     .local v2, "color2":Ljava/lang/String;
     new-instance v3, Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;
 
@@ -195,7 +195,7 @@
 
     invoke-direct {v3, v5, v6}, Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;-><init>(Landroid/content/Context;I)V
 
-    .line 346
+    .line 356
     .local v3, "colorDialog":Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;
     const/4 v5, -0x1
 
@@ -213,7 +213,7 @@
 
     invoke-virtual {v3, v5, v6, v7}, Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V
 
-    .line 358
+    .line 368
     const/4 v5, -0x2
 
     iget-object v6, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$4;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
@@ -230,7 +230,7 @@
 
     invoke-virtual {v3, v5, v6, v7}, Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V
 
-    .line 366
+    .line 376
     invoke-virtual {v3}, Lafzkl/development/colorpickerview/dialog/ColorPickerDialog;->show()V
 
     goto :goto_0

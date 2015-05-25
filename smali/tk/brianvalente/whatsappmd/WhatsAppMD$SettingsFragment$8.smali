@@ -35,7 +35,7 @@
     .param p1, "this$1"    # Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     .prologue
-    .line 511
+    .line 521
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->this$1:Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsCombineActionBarHomeTabs:Landroid/preference/SwitchPreference;
@@ -61,7 +61,7 @@
     .prologue
     const/4 v5, 0x1
 
-    .line 514
+    .line 524
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsCombineActionBarHomeTabs:Landroid/preference/SwitchPreference;
 
     invoke-virtual {v0}, Landroid/preference/SwitchPreference;->isChecked()Z
@@ -70,12 +70,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 516
+    .line 526
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsSectionHomeTabs:Landroid/preference/Preference;
 
     invoke-virtual {v0, v5}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    .line 517
+    .line 527
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsSectionHomeTabs:Landroid/preference/Preference;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -108,16 +108,16 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 518
+    .line 528
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$editor:Landroid/content/SharedPreferences$Editor;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 526
+    .line 536
     :goto_0
     return v5
 
-    .line 521
+    .line 531
     :cond_0
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsSectionHomeTabs:Landroid/preference/Preference;
 
@@ -125,14 +125,14 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    .line 522
+    .line 532
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$colorsSectionHomeTabs:Landroid/preference/Preference;
 
     const-string v1, "Using the same color as Action Bar"
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 523
+    .line 533
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$editor:Landroid/content/SharedPreferences$Editor;
 
     const-string v1, "tabsColor"
@@ -149,7 +149,7 @@
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 524
+    .line 534
     iget-object v0, p0, Ltk/brianvalente/whatsappmd/WhatsAppMD$SettingsFragment$8;->val$editor:Landroid/content/SharedPreferences$Editor;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
