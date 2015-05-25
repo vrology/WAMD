@@ -161,7 +161,7 @@
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.whatsapp.BroadcastDetails"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/message_details" android:name="com.whatsapp.MessageDetailsActivity" android:theme="@style/Theme.App.Gray.TransparentActionBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/new_group" android:name="com.whatsapp.NewGroup"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/group_info" android:name="com.whatsapp.GroupChatInfo" android:theme="@style/Theme.App.Gray.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/group_info" android:name="com.whatsapp.GroupChatInfo" android:theme="@style/Theme.App.NoActionBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.whatsapp.GroupChatLiveLocationsActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.whatsapp.GroupChatLiveLocationsActivity2"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.whatsapp.GroupChatRecentLocationsActivity"/>
