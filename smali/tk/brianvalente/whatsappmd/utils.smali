@@ -491,7 +491,7 @@
 
     .line 218
     :pswitch_0
-    const-string v3, "privacy_hideLastSeen"
+    const-string v3, "privacy_hideOnline"
 
     invoke-interface {v1, v3, v4}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 

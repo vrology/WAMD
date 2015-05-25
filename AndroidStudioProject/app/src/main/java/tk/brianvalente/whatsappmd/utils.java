@@ -215,7 +215,7 @@ public class utils extends Activity {
 
         switch (optionID) {
             case 0:
-                if(settings.getBoolean("privacy_hideLastSeen", false)) value = true;
+                if(settings.getBoolean("privacy_hideOnline", false)) value = true;
                 break;
             case 1:
                 if(settings.getBoolean("privacy_no2stTick", false)) value = true;

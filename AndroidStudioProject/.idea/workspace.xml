@@ -54,95 +54,21 @@
       <file leaf-file-name="WhatsAppMD.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5384617" vertical-offset="554" max-vertical-offset="8085">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="6975">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
-                <element signature="e#0#27464#0" expanded="true" />
+                <element signature="e#0#27756#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3094#6531#0" expanded="true" />
-                <element signature="e#4038#4653#0" expanded="true" />
-                <element signature="e#4626#4627#0" expanded="true" />
-                <element signature="e#4721#4952#0" expanded="true" />
-                <element signature="e#4925#4926#0" expanded="true" />
-                <element signature="e#5318#6005#0" expanded="true" />
-                <element signature="e#5978#5979#0" expanded="true" />
-                <element signature="e#6124#6397#0" expanded="true" />
-                <element signature="e#6370#6371#0" expanded="true" />
-                <element signature="e#6516#6517#0" expanded="true" />
-                <element signature="e#6787#10221#0" expanded="true" />
-                <element signature="e#7732#8345#0" expanded="true" />
-                <element signature="e#8318#8319#0" expanded="true" />
-                <element signature="e#8413#8644#0" expanded="true" />
-                <element signature="e#8617#8618#0" expanded="true" />
-                <element signature="e#9010#9695#0" expanded="true" />
-                <element signature="e#9668#9669#0" expanded="true" />
-                <element signature="e#9814#10087#0" expanded="true" />
-                <element signature="e#10060#10061#0" expanded="true" />
-                <element signature="e#10206#10207#0" expanded="true" />
-                <element signature="e#10926#14845#0" expanded="true" />
-                <element signature="e#11870#12703#0" expanded="true" />
-                <element signature="e#12676#12677#0" expanded="true" />
-                <element signature="e#12771#13002#0" expanded="true" />
-                <element signature="e#12975#12976#0" expanded="true" />
-                <element signature="e#13413#14319#0" expanded="true" />
-                <element signature="e#14292#14293#0" expanded="true" />
-                <element signature="e#14438#14711#0" expanded="true" />
-                <element signature="e#14684#14685#0" expanded="true" />
-                <element signature="e#14830#14831#0" expanded="true" />
-                <element signature="e#15106#18347#0" expanded="true" />
-                <element signature="e#16044#16564#0" expanded="true" />
-                <element signature="e#16537#16538#0" expanded="true" />
-                <element signature="e#16632#16863#0" expanded="true" />
-                <element signature="e#16836#16837#0" expanded="true" />
-                <element signature="e#17229#17821#0" expanded="true" />
-                <element signature="e#17794#17795#0" expanded="true" />
-                <element signature="e#17940#18213#0" expanded="true" />
-                <element signature="e#18186#18187#0" expanded="true" />
-                <element signature="e#18332#18333#0" expanded="true" />
-                <element signature="e#18493#18825#0" expanded="true" />
-                <element signature="e#18810#18811#0" expanded="true" />
-                <element signature="e#18988#22489#0" expanded="true" />
-                <element signature="e#19382#22326#0" expanded="true" />
-                <element signature="e#22294#22295#0" expanded="true" />
-                <element signature="e#22474#22475#0" expanded="true" />
-                <element signature="e#22763#26033#0" expanded="true" />
-                <element signature="e#23710#24240#0" expanded="true" />
-                <element signature="e#24213#24214#0" expanded="true" />
-                <element signature="e#24308#24539#0" expanded="true" />
-                <element signature="e#24512#24513#0" expanded="true" />
-                <element signature="e#24905#25507#0" expanded="true" />
-                <element signature="e#25480#25481#0" expanded="true" />
-                <element signature="e#25626#25899#0" expanded="true" />
-                <element signature="e#25872#25873#0" expanded="true" />
-                <element signature="e#26018#26019#0" expanded="true" />
-                <element signature="e#26498#27443#0" expanded="true" />
-                <element signature="e#27428#27429#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwitchPref.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/SwitchPref.java">
+      <file leaf-file-name="WhatsAppMD.smali" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.smali">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="whatsappmd_settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/whatsappmd_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.73077" vertical-offset="0" max-vertical-offset="780">
-              <caret line="29" column="138" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="138" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1980">
+              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="124" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -151,39 +77,41 @@
       <file leaf-file-name="utils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2758" max-vertical-offset="3645">
-              <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3645">
+              <caret line="230" column="5" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FABSettings.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/FABSettings.java">
+      <file leaf-file-name="test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fab_settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/fab_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="7" column="111" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="111" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <marker date="1432454973000" expanded="true" signature="209:895" placeholder="..." />
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_material_drawer.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.smali" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.smali">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26929983" vertical-offset="165" max-vertical-offset="975">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="40" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_material_drawer.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_material_drawer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33802816" vertical-offset="0" max-vertical-offset="710">
+            <state vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="465">
               <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
@@ -1518,16 +1446,18 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fab.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/FABSettings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/SwitchPreference.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/SwitchPref.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/whatsappmd_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/fab_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/utils.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_material_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.java" />
       </list>
     </option>
   </component>
@@ -1850,7 +1780,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4df71c394372cf69" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="FullScreen" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="177" />
     <property name="android.project.structure.last.selected" value="app" />
@@ -2044,7 +1974,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.326572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22413793" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40669373" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24068157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2089,66 +2019,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="5685">
           <caret line="351" column="108" selection-start-line="351" selection-start-column="108" selection-end-line="351" selection-end-column="108" />
           <folding>
-            <element signature="e#0#27464#0" expanded="true" />
+            <element signature="e#0#27756#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3094#6531#0" expanded="true" />
-            <element signature="e#4038#4653#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4721#4952#0" expanded="true" />
-            <element signature="e#4925#4926#0" expanded="true" />
-            <element signature="e#5318#6005#0" expanded="true" />
-            <element signature="e#5978#5979#0" expanded="true" />
-            <element signature="e#6124#6397#0" expanded="true" />
-            <element signature="e#6370#6371#0" expanded="true" />
-            <element signature="e#6516#6517#0" expanded="true" />
-            <element signature="e#6787#10221#0" expanded="true" />
-            <element signature="e#7732#8345#0" expanded="true" />
-            <element signature="e#8318#8319#0" expanded="true" />
-            <element signature="e#8413#8644#0" expanded="true" />
-            <element signature="e#8617#8618#0" expanded="true" />
-            <element signature="e#9010#9695#0" expanded="true" />
-            <element signature="e#9668#9669#0" expanded="true" />
-            <element signature="e#9814#10087#0" expanded="true" />
-            <element signature="e#10060#10061#0" expanded="true" />
-            <element signature="e#10206#10207#0" expanded="true" />
-            <element signature="e#10926#14845#0" expanded="true" />
-            <element signature="e#11870#12703#0" expanded="true" />
-            <element signature="e#12676#12677#0" expanded="true" />
-            <element signature="e#12771#13002#0" expanded="true" />
-            <element signature="e#12975#12976#0" expanded="true" />
-            <element signature="e#13413#14319#0" expanded="true" />
-            <element signature="e#14292#14293#0" expanded="true" />
-            <element signature="e#14438#14711#0" expanded="true" />
-            <element signature="e#14684#14685#0" expanded="true" />
-            <element signature="e#14830#14831#0" expanded="true" />
-            <element signature="e#15106#18347#0" expanded="true" />
-            <element signature="e#16044#16564#0" expanded="true" />
-            <element signature="e#16537#16538#0" expanded="true" />
-            <element signature="e#16632#16863#0" expanded="true" />
-            <element signature="e#16836#16837#0" expanded="true" />
-            <element signature="e#17229#17821#0" expanded="true" />
-            <element signature="e#17794#17795#0" expanded="true" />
-            <element signature="e#17940#18213#0" expanded="true" />
-            <element signature="e#18186#18187#0" expanded="true" />
-            <element signature="e#18332#18333#0" expanded="true" />
-            <element signature="e#18493#18825#0" expanded="true" />
-            <element signature="e#18810#18811#0" expanded="true" />
-            <element signature="e#18988#22489#0" expanded="true" />
-            <element signature="e#19382#22326#0" expanded="true" />
-            <element signature="e#22294#22295#0" expanded="true" />
-            <element signature="e#22474#22475#0" expanded="true" />
-            <element signature="e#22763#26033#0" expanded="true" />
-            <element signature="e#23710#24240#0" expanded="true" />
-            <element signature="e#24213#24214#0" expanded="true" />
-            <element signature="e#24308#24539#0" expanded="true" />
-            <element signature="e#24512#24513#0" expanded="true" />
-            <element signature="e#24905#25507#0" expanded="true" />
-            <element signature="e#25480#25481#0" expanded="true" />
-            <element signature="e#25626#25899#0" expanded="true" />
-            <element signature="e#25872#25873#0" expanded="true" />
-            <element signature="e#26018#26019#0" expanded="true" />
-            <element signature="e#26498#27443#0" expanded="true" />
-            <element signature="e#27428#27429#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2183,66 +2055,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4950" max-vertical-offset="6480">
           <caret line="351" column="108" selection-start-line="351" selection-start-column="108" selection-end-line="351" selection-end-column="108" />
           <folding>
-            <element signature="e#0#27464#0" expanded="true" />
+            <element signature="e#0#27756#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3094#6531#0" expanded="true" />
-            <element signature="e#4038#4653#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4721#4952#0" expanded="true" />
-            <element signature="e#4925#4926#0" expanded="true" />
-            <element signature="e#5318#6005#0" expanded="true" />
-            <element signature="e#5978#5979#0" expanded="true" />
-            <element signature="e#6124#6397#0" expanded="true" />
-            <element signature="e#6370#6371#0" expanded="true" />
-            <element signature="e#6516#6517#0" expanded="true" />
-            <element signature="e#6787#10221#0" expanded="true" />
-            <element signature="e#7732#8345#0" expanded="true" />
-            <element signature="e#8318#8319#0" expanded="true" />
-            <element signature="e#8413#8644#0" expanded="true" />
-            <element signature="e#8617#8618#0" expanded="true" />
-            <element signature="e#9010#9695#0" expanded="true" />
-            <element signature="e#9668#9669#0" expanded="true" />
-            <element signature="e#9814#10087#0" expanded="true" />
-            <element signature="e#10060#10061#0" expanded="true" />
-            <element signature="e#10206#10207#0" expanded="true" />
-            <element signature="e#10926#14845#0" expanded="true" />
-            <element signature="e#11870#12703#0" expanded="true" />
-            <element signature="e#12676#12677#0" expanded="true" />
-            <element signature="e#12771#13002#0" expanded="true" />
-            <element signature="e#12975#12976#0" expanded="true" />
-            <element signature="e#13413#14319#0" expanded="true" />
-            <element signature="e#14292#14293#0" expanded="true" />
-            <element signature="e#14438#14711#0" expanded="true" />
-            <element signature="e#14684#14685#0" expanded="true" />
-            <element signature="e#14830#14831#0" expanded="true" />
-            <element signature="e#15106#18347#0" expanded="true" />
-            <element signature="e#16044#16564#0" expanded="true" />
-            <element signature="e#16537#16538#0" expanded="true" />
-            <element signature="e#16632#16863#0" expanded="true" />
-            <element signature="e#16836#16837#0" expanded="true" />
-            <element signature="e#17229#17821#0" expanded="true" />
-            <element signature="e#17794#17795#0" expanded="true" />
-            <element signature="e#17940#18213#0" expanded="true" />
-            <element signature="e#18186#18187#0" expanded="true" />
-            <element signature="e#18332#18333#0" expanded="true" />
-            <element signature="e#18493#18825#0" expanded="true" />
-            <element signature="e#18810#18811#0" expanded="true" />
-            <element signature="e#18988#22489#0" expanded="true" />
-            <element signature="e#19382#22326#0" expanded="true" />
-            <element signature="e#22294#22295#0" expanded="true" />
-            <element signature="e#22474#22475#0" expanded="true" />
-            <element signature="e#22763#26033#0" expanded="true" />
-            <element signature="e#23710#24240#0" expanded="true" />
-            <element signature="e#24213#24214#0" expanded="true" />
-            <element signature="e#24308#24539#0" expanded="true" />
-            <element signature="e#24512#24513#0" expanded="true" />
-            <element signature="e#24905#25507#0" expanded="true" />
-            <element signature="e#25480#25481#0" expanded="true" />
-            <element signature="e#25626#25899#0" expanded="true" />
-            <element signature="e#25872#25873#0" expanded="true" />
-            <element signature="e#26018#26019#0" expanded="true" />
-            <element signature="e#26498#27443#0" expanded="true" />
-            <element signature="e#27428#27429#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2529,75 +2343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5384617" vertical-offset="554" max-vertical-offset="8085">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#27464#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3094#6531#0" expanded="true" />
-            <element signature="e#4038#4653#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4721#4952#0" expanded="true" />
-            <element signature="e#4925#4926#0" expanded="true" />
-            <element signature="e#5318#6005#0" expanded="true" />
-            <element signature="e#5978#5979#0" expanded="true" />
-            <element signature="e#6124#6397#0" expanded="true" />
-            <element signature="e#6370#6371#0" expanded="true" />
-            <element signature="e#6516#6517#0" expanded="true" />
-            <element signature="e#6787#10221#0" expanded="true" />
-            <element signature="e#7732#8345#0" expanded="true" />
-            <element signature="e#8318#8319#0" expanded="true" />
-            <element signature="e#8413#8644#0" expanded="true" />
-            <element signature="e#8617#8618#0" expanded="true" />
-            <element signature="e#9010#9695#0" expanded="true" />
-            <element signature="e#9668#9669#0" expanded="true" />
-            <element signature="e#9814#10087#0" expanded="true" />
-            <element signature="e#10060#10061#0" expanded="true" />
-            <element signature="e#10206#10207#0" expanded="true" />
-            <element signature="e#10926#14845#0" expanded="true" />
-            <element signature="e#11870#12703#0" expanded="true" />
-            <element signature="e#12676#12677#0" expanded="true" />
-            <element signature="e#12771#13002#0" expanded="true" />
-            <element signature="e#12975#12976#0" expanded="true" />
-            <element signature="e#13413#14319#0" expanded="true" />
-            <element signature="e#14292#14293#0" expanded="true" />
-            <element signature="e#14438#14711#0" expanded="true" />
-            <element signature="e#14684#14685#0" expanded="true" />
-            <element signature="e#14830#14831#0" expanded="true" />
-            <element signature="e#15106#18347#0" expanded="true" />
-            <element signature="e#16044#16564#0" expanded="true" />
-            <element signature="e#16537#16538#0" expanded="true" />
-            <element signature="e#16632#16863#0" expanded="true" />
-            <element signature="e#16836#16837#0" expanded="true" />
-            <element signature="e#17229#17821#0" expanded="true" />
-            <element signature="e#17794#17795#0" expanded="true" />
-            <element signature="e#17940#18213#0" expanded="true" />
-            <element signature="e#18186#18187#0" expanded="true" />
-            <element signature="e#18332#18333#0" expanded="true" />
-            <element signature="e#18493#18825#0" expanded="true" />
-            <element signature="e#18810#18811#0" expanded="true" />
-            <element signature="e#18988#22489#0" expanded="true" />
-            <element signature="e#19382#22326#0" expanded="true" />
-            <element signature="e#22294#22295#0" expanded="true" />
-            <element signature="e#22474#22475#0" expanded="true" />
-            <element signature="e#22763#26033#0" expanded="true" />
-            <element signature="e#23710#24240#0" expanded="true" />
-            <element signature="e#24213#24214#0" expanded="true" />
-            <element signature="e#24308#24539#0" expanded="true" />
-            <element signature="e#24512#24513#0" expanded="true" />
-            <element signature="e#24905#25507#0" expanded="true" />
-            <element signature="e#25480#25481#0" expanded="true" />
-            <element signature="e#25626#25899#0" expanded="true" />
-            <element signature="e#25872#25873#0" expanded="true" />
-            <element signature="e#26018#26019#0" expanded="true" />
-            <element signature="e#26498#27443#0" expanded="true" />
-            <element signature="e#27428#27429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/SwitchPref.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -2620,10 +2365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/utils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/fab_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2758" max-vertical-offset="3645">
-          <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="111" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="111" />
           <folding />
         </state>
       </provider>
@@ -2636,25 +2381,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/fab_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="7" column="111" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="111" />
-          <folding>
-            <marker date="1432454973000" expanded="true" signature="209:895" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_material_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33802816" vertical-offset="0" max-vertical-offset="710">
+        <state vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="465">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.smali">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1980">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="124" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/WhatsAppMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="6975">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#27756#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3645">
+          <caret line="230" column="5" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tk/brianvalente/whatsappmd/test.smali">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26929983" vertical-offset="165" max-vertical-offset="975">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

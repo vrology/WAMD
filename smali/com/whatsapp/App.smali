@@ -8,6 +8,11 @@
 
 
 # static fields
+
+# WHATSAPPMD
+.field private static context:Landroid/content/Context;
+# WHATSAPPMD END
+
 .field public static A:Landroid/telephony/TelephonyManager;
 
 .field static C:I
@@ -222,6 +227,7 @@
 
 
 # instance fields
+
 .field private final B:Lcom/whatsapp/zm;
 
 .field public final a1:Lcom/whatsapp/DelayedRegistrationBroadcastReceiver;
@@ -23615,16 +23621,31 @@
     goto :goto_0
 .end method
 
+# WHATSAPPMD
+# hide online
+
 .method public static af()V
-    .locals 1
+    .registers 2
 
     .prologue
-    .line 2800
+    .line 21
+    sget-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(Landroid/content/Context;I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_b
+
+    .line 22
     const/4 v0, 0x1
 
     invoke-static {v0}, Lcom/whatsapp/App;->b(Z)V
 
-    .line 1083
+    .line 24
+    :cond_b
     return-void
 .end method
 
@@ -39095,6 +39116,17 @@
     .line 1864
     :cond_0
     :goto_0
+
+    # WHATSAPPMD
+
+    invoke-virtual {p0}, Lcom/whatsapp/App;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
+
+    # WHATSAPPMD END
+
     return-void
 
     :catch_0

@@ -56,6 +56,14 @@ public class WhatsAppMD extends Activity {
         getFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new SettingsFragment())
                 .commit();
+
+        /*utils privacy = new utils();
+
+        if(privacy.privacyCheckOptions(0)) {
+            Toast.makeText(getApplicationContext(), "true", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(getApplicationContext(), "false", Toast.LENGTH_SHORT).show();
+        }*/
     }
 
     public class SettingsFragment extends PreferenceFragment {
