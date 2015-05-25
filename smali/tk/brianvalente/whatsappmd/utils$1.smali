@@ -29,7 +29,7 @@
     .param p1, "this$0"    # Ltk/brianvalente/whatsappmd/utils;
 
     .prologue
-    .line 97
+    .line 103
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/utils$1;->this$0:Ltk/brianvalente/whatsappmd/utils;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/utils$1;->val$FAB:Lcom/getbase/floatingactionbutton/FloatingActionsMenu;
@@ -46,7 +46,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 100
+    .line 106
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/utils$1;->this$0:Ltk/brianvalente/whatsappmd/utils;
 
     const v2, 0x7f0b0030
@@ -57,15 +57,15 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    .line 101
+    .line 107
     .local v0, "newChat":Landroid/widget/TextView;
     invoke-virtual {v0}, Landroid/widget/TextView;->performClick()Z
 
-    .line 102
+    .line 108
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/utils$1;->val$FAB:Lcom/getbase/floatingactionbutton/FloatingActionsMenu;
 
     invoke-virtual {v1}, Lcom/getbase/floatingactionbutton/FloatingActionsMenu;->collapse()V
 
-    .line 103
+    .line 109
     return-void
 .end method

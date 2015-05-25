@@ -15,11 +15,14 @@ public class test extends Application {
 
     public void xd() {
         context = getApplicationContext();
+        utils.init(context);
     }
 
     public static void xp() {
-        if (!utils.privacyCheckOptions(context, 0)) {
-            String xdd = "false";
+        if (!utils.privacyCheckOptions(1)) {
+            utils.initWhatsAppMD(context);
         }
+
+        String pene = "xd";
     }
 }

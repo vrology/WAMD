@@ -31,7 +31,7 @@
     .param p1, "this$0"    # Ltk/brianvalente/whatsappmd/utils;
 
     .prologue
-    .line 106
+    .line 112
     iput-object p1, p0, Ltk/brianvalente/whatsappmd/utils$2;->this$0:Ltk/brianvalente/whatsappmd/utils;
 
     iput-object p2, p0, Ltk/brianvalente/whatsappmd/utils$2;->val$context:Landroid/content/Context;
@@ -50,7 +50,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 109
+    .line 115
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/utils$2;->val$context:Landroid/content/Context;
@@ -59,17 +59,17 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 110
+    .line 116
     .local v0, "newGroup":Landroid/content/Intent;
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/utils$2;->this$0:Ltk/brianvalente/whatsappmd/utils;
 
     invoke-virtual {v1, v0}, Ltk/brianvalente/whatsappmd/utils;->startActivity(Landroid/content/Intent;)V
 
-    .line 111
+    .line 117
     iget-object v1, p0, Ltk/brianvalente/whatsappmd/utils$2;->val$FAB:Lcom/getbase/floatingactionbutton/FloatingActionsMenu;
 
     invoke-virtual {v1}, Lcom/getbase/floatingactionbutton/FloatingActionsMenu;->collapse()V
 
-    .line 112
+    .line 118
     return-void
 .end method

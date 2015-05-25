@@ -23629,11 +23629,10 @@
 
     .prologue
     .line 21
-    sget-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    invoke-static {v0, v1}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(Landroid/content/Context;I)Z
+    invoke-static {v0}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(I)Z
 
     move-result v0
 
@@ -39119,11 +39118,22 @@
 
     # WHATSAPPMD
 
+    #invoke-virtual {p0}, Lcom/whatsapp/App;->getApplicationContext()Landroid/content/Context;
+
+    #move-result-object v0
+
+    #sput-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
+
     invoke-virtual {p0}, Lcom/whatsapp/App;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
     sput-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
+
+    .line 18
+    sget-object v0, Lcom/whatsapp/App;->context:Landroid/content/Context;
+
+    invoke-static {v0}, Ltk/brianvalente/whatsappmd/utils;->init(Landroid/content/Context;)V
 
     # WHATSAPPMD END
 

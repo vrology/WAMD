@@ -30,6 +30,12 @@ import org.w3c.dom.Text;
  */
 public class utils extends Activity {
 
+    private static Context context;
+
+    public static void init(Context ctx) {
+        context = ctx;
+    }
+
     public static void changeUIColor(Context context, ActionBar actionBar, Window window) {
         final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
@@ -208,7 +214,7 @@ public class utils extends Activity {
         pager.setBackgroundColor(Color.parseColor(bgColor));
     }
 
-    public static boolean privacyCheckOptions(Context context, int optionID) {
+    public static boolean privacyCheckOptions(int optionID) {
         final SharedPreferences settings = context.getSharedPreferences("whatsappmd", 0);
         final SharedPreferences.Editor editor = settings.edit();
         boolean value = false;
@@ -218,7 +224,7 @@ public class utils extends Activity {
                 if(settings.getBoolean("privacy_hideOnline", false)) value = true;
                 break;
             case 1:
-                if(settings.getBoolean("privacy_no2stTick", false)) value = true;
+                if(settings.getBoolean("privacy_no2ndTick", false)) value = true;
                 break;
             case 2:
                 if(settings.getBoolean("privacy_noBlueTick", false)) value = true;

@@ -2977,6 +2977,11 @@
     return-void
 .end method
 
+
+
+# WHATSAPPMD
+# Read
+
 .method public a(Lcom/whatsapp/gi;)V
     .locals 4
 
@@ -2992,9 +2997,21 @@
 
     iget-object v2, p1, Lcom/whatsapp/gi;->a:Ljava/lang/String;
 
+    const/4 v3, 0x2
+
+    invoke-static {v3}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(I)Z
+
+    move-result v4
+
+    if-nez v4, :cond_9
+
+    .line 23
     iget-object v3, p1, Lcom/whatsapp/gi;->c:[Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/whatsapp/protocol/cp;->a(Lcom/whatsapp/protocol/x;Ljava/lang/String;[Ljava/lang/String;)V
+
+    .line 25
+    :cond_9
 
     .line 77
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3743,8 +3760,38 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/whatsapp/protocol/cp;->a(Lcom/whatsapp/protocol/cc;[I)V
 
+    .line 312
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v1, Lcom/whatsapp/messaging/z;->z:[Ljava/lang/String;
+
+    const/4 v2, 0x4
+
+    aget-object v1, v1, v2
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-object v1, p1, Lcom/whatsapp/protocol/cc;->r:Lcom/whatsapp/protocol/x;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->i(Ljava/lang/String;)V
+
+    .line 119
     return-void
 .end method
+
+# WAMD 2
 
 .method public a(Lcom/whatsapp/protocol/k;)V
     .locals 3
@@ -3787,6 +3834,8 @@
     .line 21
     return-void
 .end method
+
+# WAMD 3
 
 .method public a(Lcom/whatsapp/protocol/k;Z)V
     .locals 3
@@ -5915,11 +5964,23 @@
     return-void
 .end method
 
+
+# WHATSAPPMD
+# Hide 2st tick 1
+
 .method public b(Lcom/whatsapp/protocol/cc;)V
-    .locals 3
+    .locals 4
 
     .prologue
-    .line 262
+    .line 22
+    const/4 v1, 0x1
+
+    invoke-static {v1}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(I)Z
+
+    move-result v1
+
+    if-nez v1, :cond_c
+
     iget-object v0, p0, Lcom/whatsapp/messaging/z;->a:Lcom/whatsapp/messaging/b;
 
     invoke-static {v0}, Lcom/whatsapp/messaging/b;->c(Lcom/whatsapp/messaging/b;)Lcom/whatsapp/protocol/cp;
@@ -5927,6 +5988,36 @@
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/whatsapp/protocol/cp;->c(Lcom/whatsapp/protocol/cc;)V
+
+    .line 106
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v1, Lcom/whatsapp/messaging/z;->z:[Ljava/lang/String;
+
+    const/16 v2, 0x7f
+
+    aget-object v1, v1, v2
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-object v1, p1, Lcom/whatsapp/protocol/cc;->r:Lcom/whatsapp/protocol/x;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->i(Ljava/lang/String;)V
+
+    .line 26
+    :cond_c
 
     return-void
 .end method
@@ -6508,6 +6599,10 @@
     return-void
 .end method
 
+
+# WHATSAPPMD
+# Hide 2st tick 2
+
 .method public c(Lcom/whatsapp/protocol/cc;)V
     .locals 4
 
@@ -6562,7 +6657,33 @@
     invoke-virtual {v1, v2, v0}, Lcom/whatsapp/protocol/cp;->a(Lcom/whatsapp/protocol/x;Ljava/lang/String;)V
 
     .line 250
+    new-instance v0, Ljava/lang/StringBuilder;
 
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v1, Lcom/whatsapp/messaging/z;->z:[Ljava/lang/String;
+
+    const/16 v2, 0x3e
+
+    aget-object v1, v1, v2
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-object v1, p1, Lcom/whatsapp/protocol/cc;->r:Lcom/whatsapp/protocol/x;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->i(Ljava/lang/String;)V
+
+    .line 19
     return-void
 .end method
 
@@ -6886,6 +7007,10 @@
     .line 223
     return-void
 .end method
+
+
+# WHATSAPPMD
+# Voice note
 
 .method public d(Lcom/whatsapp/protocol/cc;)V
     .locals 4

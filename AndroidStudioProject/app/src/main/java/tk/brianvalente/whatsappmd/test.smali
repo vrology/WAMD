@@ -22,22 +22,26 @@
     .registers 2
 
     .prologue
-    .line 21
-    sget-object v0, Ltk/brianvalente/whatsappmd/test;->context:Landroid/content/Context;
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(Landroid/content/Context;I)Z
-
-    move-result v0
-
-    if-nez v0, :cond_b
-
     .line 22
-    const-string v0, "false"
+    const/4 v1, 0x1
 
-    .line 24
-    :cond_b
+    invoke-static {v1}, Ltk/brianvalente/whatsappmd/utils;->privacyCheckOptions(I)Z
+
+    move-result v1
+
+    if-nez v1, :cond_c
+
+    .line 23
+    sget-object v1, Ltk/brianvalente/whatsappmd/test;->context:Landroid/content/Context;
+
+    invoke-static {v1}, Ltk/brianvalente/whatsappmd/utils;->initWhatsAppMD(Landroid/content/Context;)V
+
+    .line 26
+    :cond_c
+    const-string v0, "xd"
+
+    .line 27
+    .local v0, "pene":Ljava/lang/String;
     return-void
 .end method
 
@@ -55,5 +59,10 @@
     sput-object v0, Ltk/brianvalente/whatsappmd/test;->context:Landroid/content/Context;
 
     .line 18
+    sget-object v0, Ltk/brianvalente/whatsappmd/test;->context:Landroid/content/Context;
+
+    invoke-static {v0}, Ltk/brianvalente/whatsappmd/utils;->init(Landroid/content/Context;)V
+
+    .line 19
     return-void
 .end method
